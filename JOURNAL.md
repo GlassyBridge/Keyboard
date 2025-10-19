@@ -27,3 +27,11 @@ I think it looks cool and I tried to make it organized like what you see in the 
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzM3MiwicHVyIjoiYmxvYl9pZCJ9fQ==--589b7ac934ebfbfd105b3f8767efd15d070f894d/image.png)  
 
+## 10/19/2025 6 PM - Assigned Footprints  
+
+Assigned all of the footprints.
+
+I wish if the guide provided more information on which key switch was used and why. The guide says "chalk hot swap sockets from marbastlib", but when I checked I didn't find any switch called "chalk" in the repository. I couldn't also get the footprints from marbastlib to appear in the footprint selection tab so I spent a lot of time there. I finally decided to go with the default Keyboard switches in KiCad, "Cherry_MX" which I think would work.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzM5OCwicHVyIjoiYmxvYl9pZCJ9fQ==--657609d9c9934d232a2bbad9976c14f3df6765f9/image.png)  
+
