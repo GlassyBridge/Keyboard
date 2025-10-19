@@ -10,7 +10,7 @@ This is my journal of the design and building process of **Keyboard**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/726).
 
 
-## 10/19/2025 - Installed KiCad and the required libraries  
+## 10/19/2025 2 PM - Installed KiCad and the required libraries  
 
 I have successfully installed kicad and the necessary libraries needed to work on this project. It took a lot of trial and error to get it but in the end I have figured out how to add those necessary libraries.
 
@@ -18,4 +18,12 @@ I am thinking of making a number pad that can connect both wirelessly and wired.
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzMzMSwicHVyIjoiYmxvYl9pZCJ9fQ==--027615782dba6419fded193d9cd3cbec1f5e4185/image.png)
   
+
+## 10/19/2025 5 PM - Made schematics V`1  
+
+I made the first iteration of the schematic.
+
+I think it looks cool and I tried to make it organized like what you see in the image. I had to experiment a bit to find where the blue rectangles from the guide come from and I think those were great additions to my schematic page.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzM3MiwicHVyIjoiYmxvYl9pZCJ9fQ==--589b7ac934ebfbfd105b3f8767efd15d070f894d/image.png)  
 
