@@ -14,7 +14,7 @@ You can view this journal in more detail on **Hack Club Blueprint** [here](https
 
 I have successfully installed kicad and the necessary libraries needed to work on this project. It took a lot of trial and error to get it but in the end I have figured out how to add those necessary libraries.
 
-I am thinking of making a number pad that can connect both wirelessly and wired. (it may also be part of my bigger project which I am not going to spoil here.)
+I am thinking of making a number pad that can connect both wirelessly and wired. (It may also be part of my bigger project which I am not going to spoil here.)
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzMzMSwicHVyIjoiYmxvYl9pZCJ9fQ==--027615782dba6419fded193d9cd3cbec1f5e4185/image.png)
   
