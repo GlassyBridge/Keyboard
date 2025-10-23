@@ -6,10 +6,6 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **Keyboard**.  
-You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/726).
-
-
 ## 10/19/2025 2 PM - Installed KiCad and the required libraries  
 
 I have successfully installed kicad and the necessary libraries needed to work on this project. It took a lot of trial and error to get it but in the end I have figured out how to add those necessary libraries.
@@ -35,4 +31,10 @@ I wish if the guide provided more information on which key switch was used and w
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMCwicHVyIjoiYmxvYl9pZCJ9fQ==--55ad0cfa42f0295e32f20b57836071218efb4da8/image.png)
   
+
+## 10/23/2025 - Researched ALOT  
+
+I wanted to have a MagSafe (or magnetic connections) between my keyboard modules and looked into various types of connections. I finally settled on using magnetic pogo-pins and decided to use a 6 pin connector for power and I2C connections between modules. I am now facing issues because I now need 6 total free pins (including power, SDA, SCL, and other two GPIO pins for other extra needs). I am thinking of rewiring my KeyMatrix in order to have some free pins.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDg5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--1cc1f032f0743af1fed084938ee52ba974315605/image.png)  
 
