@@ -60,3 +60,9 @@ I was arranging the key switches after finishing my schematic. I noticed that my
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcxMywicHVyIjoiYmxvYl9pZCJ9fQ==--87dc2897143ae5c3aab5eb5dbf2adc1200175066/image.png)
   
 
+## 10/26/2025 6 PM - Arranged the Key Switches  
+
+I have arranged the key switches aligned with 1mm grid. This took a lot of time because when you try to move the footprints together, the X or Y positions misalign from the grid. I don't think there is a fix for this so ig I'll have to work with it.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTczMSwicHVyIjoiYmxvYl9pZCJ9fQ==--634e5bdf72090c2550f0db7c426d81f037a6b14f/image.png)  
+
