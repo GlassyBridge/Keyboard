@@ -51,3 +51,12 @@ I have separated the key matrix connection into an MCP23017 and set it to commun
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--d65246f0b0c9a07fced52be73c3faf3ad6586ecf/image.png)
   
 
+## 10/26/2025 5 PM - Started working on the PCB layout  
+
+I was arranging the key switches after finishing my schematic. I noticed that my keys weren't similar to the ones being used in the tutorial (because I liked how they looked). Now my layout is messed so so I am trying to find KiCad shortcuts that make this process faster.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--1a400af83f84fc914db36b6514ee9917a6c44804/image.png)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcxMywicHVyIjoiYmxvYl9pZCJ9fQ==--87dc2897143ae5c3aab5eb5dbf2adc1200175066/image.png)
+  
+
