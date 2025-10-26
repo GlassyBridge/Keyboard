@@ -38,9 +38,16 @@ I wanted to have a MagSafe (or magnetic connections) between my keyboard modules
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDg5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--1cc1f032f0743af1fed084938ee52ba974315605/image.png)  
 
-## 10/26/2025 - Decided to use an IO Expander  
+## 10/26/2025 11 AM - Decided to use an IO Expander  
 
 I decided to use an IO expander for my keyboard matrix. I couldn't find one with 9 pins so I chose to use the default one given in the symbol library of KiCad. I think this project is getting complex day by day and I hope I finish it.
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTY2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--d8793e4fb0418c125b90cd58377c67008e0d3a5e/image.png)  
+
+## 10/26/2025 3 PM - (Hopefully) Finished the Schematic  
+
+I have separated the key matrix connection into an MCP23017 and set it to communicate with the XIAO through SDA and SCL pins. Using the leftover pins I connected them to the module connectors so I can use them to transfer information between the main board (or other modules) and the keypad module. I may add LEDs to this but since I am planning to give the main board RGB LEDs, I am going to give this module only back light (possibly white) LEDs that may have dimming properties.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--d65246f0b0c9a07fced52be73c3faf3ad6586ecf/image.png)
+  
 
