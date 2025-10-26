@@ -6,10 +6,6 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **Keyboard**.  
-You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/726).
-
-
 ## 10/19/2025 2 PM - Installed KiCad and the required libraries  
 
 I have successfully installed kicad and the necessary libraries needed to work on this project. It took a lot of trial and error to get it but in the end I have figured out how to add those necessary libraries.
@@ -26,4 +22,32 @@ I made the first iteration of the schematic.
 I think it looks cool and I tried to make it organized like what you see in the image. I had to experiment a bit to find where the blue rectangles from the guide come from and I think those were great additions to my schematic page.
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzM3MiwicHVyIjoiYmxvYl9pZCJ9fQ==--589b7ac934ebfbfd105b3f8767efd15d070f894d/image.png)  
+
+## 10/19/2025 6 PM - Assigned Footprints  
+
+Assigned all of the footprints.
+
+I wish if the guide provided more information on which key switch was used and why. The guide says "chalk hot swap sockets from marbastlib", but when I checked I didn't find any switch called "chalk" in the repository. I couldn't also get the footprints from marbastlib to appear in the footprint selection tab so I spent a lot of time there. I finally decided to go with the default Keyboard switches in KiCad, "Cherry_MX" which I think would work.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzQwMCwicHVyIjoiYmxvYl9pZCJ9fQ==--55ad0cfa42f0295e32f20b57836071218efb4da8/image.png)
+  
+
+## 10/23/2025 - Researched ALOT  
+
+I wanted to have a MagSafe (or magnetic connections) between my keyboard modules and looked into various types of connections. I finally settled on using magnetic pogo-pins and decided to use a 6 pin connector for power and I2C connections between modules. I am now facing issues because I now need 6 total free pins (including power, SDA, SCL, and other two GPIO pins for other extra needs). I am thinking of rewiring my KeyMatrix in order to have some free pins.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDg5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--1cc1f032f0743af1fed084938ee52ba974315605/image.png)  
+
+## 10/26/2025 11 AM - Decided to use an IO Expander  
+
+I decided to use an IO expander for my keyboard matrix. I couldn't find one with 9 pins so I chose to use the default one given in the symbol library of KiCad. I think this project is getting complex day by day and I hope I finish it.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTY2MCwicHVyIjoiYmxvYl9pZCJ9fQ==--d8793e4fb0418c125b90cd58377c67008e0d3a5e/image.png)  
+
+## 10/26/2025 3 PM - (Hopefully) Finished the Schematic  
+
+I have separated the key matrix connection into an MCP23017 and set it to communicate with the XIAO through SDA and SCL pins. Using the leftover pins I connected them to the module connectors so I can use them to transfer information between the main board (or other modules) and the keypad module. I may add LEDs to this but since I am planning to give the main board RGB LEDs, I am going to give this module only back light (possibly white) LEDs that may have dimming properties.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--d65246f0b0c9a07fced52be73c3faf3ad6586ecf/image.png)
+  
 
