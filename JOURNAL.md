@@ -66,3 +66,9 @@ I have arranged the key switches aligned with 1mm grid. This took a lot of time 
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTczMSwicHVyIjoiYmxvYl9pZCJ9fQ==--634e5bdf72090c2550f0db7c426d81f037a6b14f/image.png)  
 
+## 10/28/2025 - Waiting for Peer Review  
+
+Arranged my keypad and now I am waiting for feedback from the #blueprint and #electronics community. So far, I think it is great, but I am looking for comments from someone more knowledgeable before I start routing.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjIyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--af4cc08eede8fd2e0fbb47110523203c965ed6eb/image.png)  
+
