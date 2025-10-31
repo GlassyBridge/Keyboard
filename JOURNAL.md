@@ -72,3 +72,9 @@ Arranged my keypad and now I am waiting for feedback from the #blueprint and #el
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjIyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--af4cc08eede8fd2e0fbb47110523203c965ed6eb/image.png)  
 
+## 10/31/2025 - Routed the PCB (Partially)  
+
+I routed the PCB before realizing that I have to follow the hackpad tutorial. I am just happy though because I didn't have the internet during the time that I routed it and I think it turned out pretty great. (Except for the battery pins ofc)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzEzNCwicHVyIjoiYmxvYl9pZCJ9fQ==--d570871e305883ec33186346fa6097dea4c05e13/image.png)  
+
