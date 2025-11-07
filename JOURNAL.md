@@ -78,3 +78,9 @@ I routed the PCB before realizing that I have to follow the hackpad tutorial. I 
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzEzNCwicHVyIjoiYmxvYl9pZCJ9fQ==--d570871e305883ec33186346fa6097dea4c05e13/image.png)  
 
+## 11/7/2025 - Rerouted the MCP  
+
+I needed to connect the pins that set the address for the MCP to the XIAO so I decided to rotate it around. This meant that I had to change the whole routing again.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIxOSwicHVyIjoiYmxvYl9pZCJ9fQ==--7beefa186494762846f70b532c31aa4782a82312/image.png)  
+
