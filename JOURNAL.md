@@ -51,3 +51,42 @@ I have separated the key matrix connection into an MCP23017 and set it to commun
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--d65246f0b0c9a07fced52be73c3faf3ad6586ecf/image.png)
   
 
+## 10/26/2025 5 PM - Started working on the PCB layout  
+
+I was arranging the key switches after finishing my schematic. I noticed that my keys weren't similar to the ones being used in the tutorial (because I liked how they looked). Now my layout is messed so so I am trying to find KiCad shortcuts that make this process faster.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--1a400af83f84fc914db36b6514ee9917a6c44804/image.png)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcxMywicHVyIjoiYmxvYl9pZCJ9fQ==--87dc2897143ae5c3aab5eb5dbf2adc1200175066/image.png)
+  
+
+## 10/26/2025 6 PM - Arranged the Key Switches  
+
+I have arranged the key switches aligned with 1mm grid. This took a lot of time because when you try to move the footprints together, the X or Y positions misalign from the grid. I don't think there is a fix for this so ig I'll have to work with it.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTczMSwicHVyIjoiYmxvYl9pZCJ9fQ==--634e5bdf72090c2550f0db7c426d81f037a6b14f/image.png)  
+
+## 10/28/2025 - Waiting for Peer Review  
+
+Arranged my keypad and now I am waiting for feedback from the #blueprint and #electronics community. So far, I think it is great, but I am looking for comments from someone more knowledgeable before I start routing.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjIyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--af4cc08eede8fd2e0fbb47110523203c965ed6eb/image.png)  
+
+## 10/31/2025 - Routed the PCB (Partially)  
+
+I routed the PCB before realizing that I have to follow the hackpad tutorial. I am just happy though because I didn't have the internet during the time that I routed it and I think it turned out pretty great. (Except for the battery pins ofc)
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzEzNCwicHVyIjoiYmxvYl9pZCJ9fQ==--d570871e305883ec33186346fa6097dea4c05e13/image.png)  
+
+## 11/7/2025 - Rerouted the MCP  
+
+I needed to connect the pins that set the address for the MCP to the XIAO so I decided to rotate it around. This meant that I had to change the whole routing again.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIxOSwicHVyIjoiYmxvYl9pZCJ9fQ==--7beefa186494762846f70b532c31aa4782a82312/image.png)  
+
+## 11/9/2025 - Rearranged the key switches  
+
+The blueprint chat seems to be offline right now. I tried asking questions but I didn't get anything back so I decided to continue working on it by my self. From other projects I saw that you can place the diodes on the padding area so I did that, but I wanted to make sure that the diode doesn't affect the key switch placement so I went looking for 3d models for the key switch, I found one but couldn't get it to fit so I scratched that. Finally, I rerouted the entire key matrix as the image you see below.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTcwMywicHVyIjoiYmxvYl9pZCJ9fQ==--52c19669fbdf021dd96f775d7b168a995df76f02/image.png)  
+
