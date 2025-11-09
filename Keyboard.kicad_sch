@@ -2388,16 +2388,44 @@
 		(uuid "fce2007b-956f-4bc0-8961-6a16bb4b7f84")
 	)
 	(no_connect
+		(at 220.98 59.69)
+		(uuid "0b7579aa-4fca-48d0-8630-f05cd732be6e")
+	)
+	(no_connect
+		(at 185.42 74.93)
+		(uuid "0c8e6c1e-2e87-4838-8d90-5f4f88d2d0f9")
+	)
+	(no_connect
 		(at 160.02 40.64)
 		(uuid "1eee0ecd-3660-459e-9d76-543b694f0e8b")
+	)
+	(no_connect
+		(at 256.54 85.09)
+		(uuid "2c3b4044-850d-43db-8091-f151cbb3c831")
 	)
 	(no_connect
 		(at 167.64 85.09)
 		(uuid "36c39850-529d-4ddc-8def-f634ae0f96da")
 	)
 	(no_connect
+		(at 236.22 92.71)
+		(uuid "43e74a14-06bd-4fc3-8fe0-06d0e52286a1")
+	)
+	(no_connect
 		(at 171.45 40.64)
 		(uuid "484ca913-41ba-4ee1-8f31-49b126e7ebf7")
+	)
+	(no_connect
+		(at 220.98 62.23)
+		(uuid "5013d384-dd7e-4504-a81a-d313c39b7075")
+	)
+	(no_connect
+		(at 185.42 71.12)
+		(uuid "5c37f5a3-b341-40ac-9d4c-774480a463a2")
+	)
+	(no_connect
+		(at 256.54 54.61)
+		(uuid "6b2239cf-57d8-4533-89c7-c1b671ba0a38")
 	)
 	(no_connect
 		(at 185.42 52.07)
@@ -2412,8 +2440,28 @@
 		(uuid "7c7fc47b-fe16-4707-bfb7-29562380b967")
 	)
 	(no_connect
+		(at 256.54 62.23)
+		(uuid "8cdd629c-35b1-4244-823a-2054b20ea43d")
+	)
+	(no_connect
+		(at 256.54 82.55)
+		(uuid "cbf51ee3-dbbf-491f-9435-89c280916eec")
+	)
+	(no_connect
 		(at 163.83 40.64)
 		(uuid "cfbbf285-aca0-4ba0-b11d-32ce4f56ef00")
+	)
+	(no_connect
+		(at 256.54 57.15)
+		(uuid "d0f3dcd9-d9ad-46a6-9792-0394165384ba")
+	)
+	(no_connect
+		(at 256.54 80.01)
+		(uuid "e24a9209-f74a-404d-8fe1-5ea5df4ac84b")
+	)
+	(no_connect
+		(at 256.54 59.69)
+		(uuid "f1d21342-f536-40cd-abf2-8592ef123705")
 	)
 	(wire
 		(pts
@@ -3007,6 +3055,28 @@
 			)
 		)
 	)
+	(global_label "A1"
+		(shape input)
+		(at 143.51 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a7651aa-71ae-4f26-a0a4-180fd29d8ee7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.2267 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BT_PIN"
 		(shape input)
 		(at 170.18 114.3 180)
@@ -3031,7 +3101,7 @@
 			)
 		)
 	)
-	(global_label "EXTRA"
+	(global_label "COM"
 		(shape input)
 		(at 215.9 116.84 0)
 		(fields_autoplaced yes)
@@ -3050,6 +3120,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape input)
+		(at 220.98 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2321de11-f866-4b6d-9153-3eb95c23aec9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.6967 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3076,32 +3168,32 @@
 			)
 		)
 	)
-	(global_label "EXTRA"
+	(global_label "COM"
 		(shape input)
-		(at 143.51 63.5 180)
+		(at 185.42 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2a1f8788-0f4b-45c6-95cc-e4ada8bdafd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.3447 63.5 0)
+			(at 192.4571 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "ROW1"
 		(shape input)
-		(at 256.54 69.85 0)
+		(at 256.54 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3113,7 +3205,7 @@
 		)
 		(uuid "2c004579-3392-4bf0-b26c-249393f2bce8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.2626 69.85 0)
+			(at 265.2626 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,6 +3235,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A0"
+		(shape input)
+		(at 220.98 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b6ceab5-0398-4f62-8838-76c227558d2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.6967 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3252,6 +3366,28 @@
 		(uuid "617b0431-4ad8-4f2a-8710-7e85b3527ba5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 203.0047 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A0"
+		(shape input)
+		(at 143.51 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66a33437-6a60-40ad-9efa-e2f4cc635f75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.2267 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,6 +3508,28 @@
 		(uuid "83f7053e-accd-4c41-95b6-f5d4bf5cde13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.6383 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape input)
+		(at 143.51 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84f2c7fe-2f3b-4034-b72c-04c564499bb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.2267 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +3755,7 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 256.54 74.93 0)
+		(at 256.54 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3609,7 +3767,7 @@
 		)
 		(uuid "a6af04d6-53e8-4e30-b334-6aff7ba9c68d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.2626 74.93 0)
+			(at 265.2626 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3779,7 @@
 	)
 	(global_label "ROW0"
 		(shape input)
-		(at 256.54 67.31 0)
+		(at 256.54 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3633,7 +3791,7 @@
 		)
 		(uuid "a6b09fe9-926b-451a-b17b-b1a2a8053751")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.2626 67.31 0)
+			(at 265.2626 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,14 +3808,35 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify right)
 		)
 		(uuid "aec046a9-cc96-41a9-bb08-72083da57e0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.3447 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A1"
+		(shape input)
+		(at 220.98 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf5777e3-f565-4d5b-94a5-5a3e85702d3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.6967 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3918,7 @@
 	)
 	(global_label "ROW4"
 		(shape input)
-		(at 256.54 77.47 0)
+		(at 256.54 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3751,7 +3930,7 @@
 		)
 		(uuid "e832fe5b-6e38-43d5-9565-922242cb48f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.2626 77.47 0)
+			(at 265.2626 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,23 +3942,23 @@
 	)
 	(global_label "PRESENCE"
 		(shape input)
-		(at 143.51 59.69 180)
+		(at 185.42 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e9016636-2d68-4f98-856a-76e2ca52b557")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.3447 59.69 0)
+			(at 198.2022 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3922,7 +4101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 69.85 121.92 0)
 			(effects
 				(font
@@ -4232,7 +4411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -4387,7 +4566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork"
 			(at 210.82 114.3 0)
 			(effects
 				(font
@@ -4467,7 +4646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 52.07 101.6 0)
 			(effects
 				(font
@@ -4755,7 +4934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 69.85 44.45 0)
 			(effects
 				(font
@@ -4823,7 +5002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 69.85 101.6 0)
 			(effects
 				(font
@@ -4891,7 +5070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 69.85 63.5 0)
 			(effects
 				(font
@@ -4959,7 +5138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 52.07 63.5 0)
 			(effects
 				(font
@@ -5247,7 +5426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 69.85 82.55 0)
 			(effects
 				(font
@@ -5556,7 +5735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 52.07 121.92 0)
 			(effects
 				(font
@@ -6283,7 +6462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 107.95 121.92 0)
 			(effects
 				(font
@@ -6439,7 +6618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -6508,7 +6687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 220.218 62.23 90)
 			(effects
 				(font
@@ -6817,7 +6996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 88.9 121.92 0)
 			(effects
 				(font
@@ -6885,7 +7064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 88.9 82.55 0)
 			(effects
 				(font
@@ -6953,7 +7132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -7197,7 +7376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 88.9 44.45 0)
 			(effects
 				(font
@@ -7265,7 +7444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 52.07 82.55 0)
 			(effects
 				(font
@@ -7597,7 +7776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 107.95 101.6 0)
 			(effects
 				(font
@@ -7929,7 +8108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 107.95 82.55 0)
 			(effects
 				(font
@@ -7997,7 +8176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -8065,7 +8244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "PCM_marbastlib-xp-choc:SW_choc_v2_HS_CPG135001S30_1u"
 			(at 52.07 44.45 0)
 			(effects
 				(font
