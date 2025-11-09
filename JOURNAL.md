@@ -84,3 +84,9 @@ I needed to connect the pins that set the address for the MCP to the XIAO so I d
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIxOSwicHVyIjoiYmxvYl9pZCJ9fQ==--7beefa186494762846f70b532c31aa4782a82312/image.png)  
 
+## 11/9/2025 - Rearranged the key switches  
+
+The blueprint chat seems to be offline right now. I tried asking questions but I didn't get anything back so I decided to continue working on it by my self. From other projects I saw that you can place the diodes on the padding area so I did that, but I wanted to make sure that the diode doesn't affect the key switch placement so I went looking for 3d models for the key switch, I found one but couldn't get it to fit so I scratched that. Finally, I rerouted the entire key matrix as the image you see below.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTcwMywicHVyIjoiYmxvYl9pZCJ9fQ==--52c19669fbdf021dd96f775d7b168a995df76f02/image.png)  
+
