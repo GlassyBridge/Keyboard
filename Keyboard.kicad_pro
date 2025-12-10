@@ -621,6 +621,14 @@
     [
       "fa4d5580-8795-4b64-903a-bec98e134c5c",
       "Root"
+    ],
+    [
+      "e1d0460a-26b5-4c80-87de-a4ebc6ef7767",
+      "Main_board"
+    ],
+    [
+      "ce80b2d0-ef32-496a-831b-baf9fb5d3f1d",
+      "Keypad_module"
     ]
   ],
   "text_variables": {}
