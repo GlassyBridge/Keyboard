@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +216,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -229,6 +243,10 @@
     "erc_exclusions": [
       [
         "power_pin_not_driven|1943100|558800|db879c98-14eb-46a2-922d-11187780a8a1|00000000-0000-0000-0000-000000000000|/fa4d5580-8795-4b64-903a-bec98e134c5c|/fa4d5580-8795-4b64-903a-bec98e134c5c|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2247900|190500|1f40e86d-3474-4dcc-9b3d-3a7b052eb170|00000000-0000-0000-0000-000000000000|/fa4d5580-8795-4b64-903a-bec98e134c5c/ce80b2d0-ef32-496a-831b-baf9fb5d3f1d|/fa4d5580-8795-4b64-903a-bec98e134c5c/ce80b2d0-ef32-496a-831b-baf9fb5d3f1d|",
         ""
       ],
       [
