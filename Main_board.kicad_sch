@@ -24835,7 +24835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LTC4217IDHC_PBF:DFN-16_DHC"
+		(property "Footprint" "footprints:DFN-16_DHC_LIT"
 			(at 233.68 147.32 0)
 			(effects
 				(font
