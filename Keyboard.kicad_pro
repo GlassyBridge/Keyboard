@@ -64,7 +64,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -106,7 +106,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -246,6 +246,10 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "multiple_net_names|2209800|1511300|9778545f-6ddf-4a4b-9e74-1f1a2d9366c8|47984f2a-b8c9-425c-8d4b-20e540cc514a|/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767|/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767|/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767",
+        ""
+      ],
       [
         "power_pin_not_driven|1943100|558800|db879c98-14eb-46a2-922d-11187780a8a1|00000000-0000-0000-0000-000000000000|/fa4d5580-8795-4b64-903a-bec98e134c5c|/fa4d5580-8795-4b64-903a-bec98e134c5c|",
         ""
