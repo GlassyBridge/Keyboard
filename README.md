@@ -1,8 +1,11 @@
 <h1 align="center"> Wireless-Modular Keyboard </h1>
-<div align="center"><img width="80%" alt="3D view" src="https://github.com/user-attachments/assets/8fd15b56-dfcd-42e9-b987-81b10737f17e"/></div>
+<div align="center">
+  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/3de422af-304e-4d5e-8017-280363eabc6f" />
+</div>
 <p align="center">This project is a custom modular keyboard that has both wireless and wired capabilities. It also uses low profile, kailh choc hotswap switches increasing customizability and its overall asthetic. Additionally, it offers magnetic connection following the I2C protocol which ensures any type of module can connect to the main board effectively and securely.</p>
 <h2></h2>
 <h2> Features </h2>
+
 - Works over USB-C (wired) or Bluetooth (wireless)
 - Integrated magnetic pogo pins for stable I2C connection and adding external modules (numberpads, macropads or OLED modules)
 - Integrated charging circuit for portability and wireless operation
@@ -20,9 +23,19 @@
 <img width="100%" alt="Front PCB" src="https://github.com/user-attachments/assets/23952d2b-95fd-44f1-86ce-78083ecc20eb" />
 <h4 align="center">PCB front</h4>
 <img width="100%" alt="PCB" src="https://github.com/user-attachments/assets/8b9dbc9f-bcd7-4657-84fe-700344f8f072" />
-<h4 align="center">PCB whole</h4>
+<h4 align="center">PCB</h4>
 <img width="100%" alt="No-Components 3D View" src="https://github.com/user-attachments/assets/c00d64b3-ea89-4ade-b66a-ea81fc4e337f" />
 <h4 align="center">PCB 3D model</h4>
+<img width="100%" alt="3D view" src="https://github.com/user-attachments/assets/8fd15b56-dfcd-42e9-b987-81b10737f17e"/>
+<h4 align="center">PCB 3D model with components</h4>
+<h2>Design - Main Board</h2>
+<img width="525" height="680" alt="image" src="https://github.com/user-attachments/assets/cdf74649-d92a-4518-b770-da93dddf60d0" />
+<img width="475" height="667" alt="image" src="https://github.com/user-attachments/assets/18d7be1e-f47d-40d7-af45-733a3c977469" />
+<img width="476" height="628" alt="image" src="https://github.com/user-attachments/assets/bf19edac-f2b4-475e-b673-c9dddb72943b" />
+<img width="459" height="632" alt="image" src="https://github.com/user-attachments/assets/c227f7f8-6663-4827-a442-86a498521000" />
+<img width="457" height="632" alt="image" src="https://github.com/user-attachments/assets/f182056d-6e92-4bb4-8d59-ecab46d0cc99" />
+<img width="971" height="662" alt="image" src="https://github.com/user-attachments/assets/ce49d8b1-8011-4b91-ac4e-8151b00ddbe0" />
+
 <h2>Firmware</h2>
 <p>Coming soon</p>
 <h2>Bill of Materials</h2>
