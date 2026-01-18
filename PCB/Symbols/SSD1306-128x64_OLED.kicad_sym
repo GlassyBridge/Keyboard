@@ -52,15 +52,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SSD1306-128x64_OLED:SSD1306"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "SSD1306_0_1"
 			(rectangle
 				(start -6.35 6.35)
