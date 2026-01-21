@@ -1,3 +1,4 @@
+#This is a test firmware to check if the keyboard is working properly
 import board
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
