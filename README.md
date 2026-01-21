@@ -14,34 +14,23 @@
 - Includes a dedicated SWD interface for debugging and development
 - A dedicated slide switch to manage battery life
 
-<h2>Design - Main Board</h2>
+<h2>Design</h2>
 <h3>Schematic</h3>
-<img width="100%" alt="Schematic" src="https://github.com/user-attachments/assets/09c143b7-9dc0-413d-9ba6-27eaed69ed17" />
+<img width="49%" alt="Main_Board_Schematic" src="https://github.com/user-attachments/assets/00c6ecfa-7811-464e-bdc8-09416fe01dce" />
+<img width="49%" alt="Keypad_Module_Schematic" src="https://github.com/user-attachments/assets/9988d776-ba61-45ed-a6f6-ed06badc78c9" />
+<h4 align="center">Main board & Keypad</h4>
 <h3>PCB</h3>
-<img width="100%" alt="Back PCB" src="https://github.com/user-attachments/assets/c9973b4c-b40a-4385-b5e5-83c4a9ff7df9" />
+
+<img width="100%" alt="Back PCB" src="https://github.com/user-attachments/assets/0b47e930-3302-4fef-a9a6-45c70608f9eb" />
 <h4 align="center">PCB back</h4>
-<img width="100%" alt="Front PCB" src="https://github.com/user-attachments/assets/23952d2b-95fd-44f1-86ce-78083ecc20eb" />
+<img width="100%" alt="Front PCB" src="https://github.com/user-attachments/assets/b39220f1-5d92-44de-ac83-3a20c1671a27" />
 <h4 align="center">PCB front</h4>
-<img width="100%" alt="PCB" src="https://github.com/user-attachments/assets/8b9dbc9f-bcd7-4657-84fe-700344f8f072" />
+<img width="100%" alt="PCB" src="https://github.com/user-attachments/assets/cedc6b69-ca47-4acc-819d-e210417ba209" />
 <h4 align="center">PCB</h4>
-<img width="100%" alt="No-Components 3D View" src="https://github.com/user-attachments/assets/c00d64b3-ea89-4ade-b66a-ea81fc4e337f" />
+<img width="100%" alt="No-Components 3D View" src="https://github.com/user-attachments/assets/4a15fb1a-3f6e-4260-aa9d-c4ff45b4fd4e" />
 <h4 align="center">PCB 3D model</h4>
-<img width="100%" alt="3D view" src="https://github.com/user-attachments/assets/8fd15b56-dfcd-42e9-b987-81b10737f17e"/>
+<img width="100%" alt="3D view" src="https://github.com/user-attachments/assets/8116f531-b872-41ad-8eeb-bf7f7235af24"/>
 <h4 align="center">PCB 3D model with components</h4>
-<h2>Design - Keypad module</h2>
-<h3>Schematic</h3>
-<img width="100%" alt="K-schematic" src="https://github.com/user-attachments/assets/ce49d8b1-8011-4b91-ac4e-8151b00ddbe0" />
-<h3>PCB</h3>
-<img width="50%" alt="PCB" src="https://github.com/user-attachments/assets/bf19edac-f2b4-475e-b673-c9dddb72943b" />
-<h4 align="center">PCB</h4>
-<img width="50%" alt="PCB-front" src="https://github.com/user-attachments/assets/c227f7f8-6663-4827-a442-86a49852500" />
-<h4 align="center">PCB front</h4>
-<img width="50%" alt="PCB-back" src="https://github.com/user-attachments/assets/f182056d-6e92-4bb4-8d59-ecab46d0cc99" />
-<h4 align="center">PCB back</h4>
-<img width="50%" alt="3D model with components" src="https://github.com/user-attachments/assets/cdf74649-d92a-4518-b770-da93dddf60d0" />
-<h4 align="center">PCB 3D model with components</h4>
-<img width="50%" alt="3D model" src="https://github.com/user-attachments/assets/18d7be1e-f47d-40d7-af45-733a3c977469" />
-<h4 align="center">PCB 3D model</h4>
 
 <h2>Firmware</h2>
 <p>Coming soon</p>
