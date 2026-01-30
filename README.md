@@ -57,7 +57,7 @@
 | Keys                                          | SW1-SW102       |  102  | SW_Push                     | C5333465    | 0.1213         | 73  | -        |      [C5333465](https://jlcpcb.com/partdetail/C5333465)       |
 |                                               | -               |  102  | Switches                    |             |                |     |          | [Link](https://www.aliexpress.com/item/1005005883472162.html) |
 |                                               | -               |  102  | Key caps                    |             |                |     |          |                               -                               |
-| USB6B1 (ESD protector for USB data lines)     | U2              |   1   | USB6B1                      | C283483     | 0.4702         | 19  | -        |       [C283483](https://jlcpcb.com/partdetail/C283483)        |
+| USB6B1 (ESD protector for USB data lines)     | U2              |   1   | USB6B1RL                    | C283483     | 0.66           |     | -        |       [C10508](https://jlcpcb.com/partdetail/C10508)        |
 | MDBT50Q-1MV2 (MCU)                            | U3              |   1   | MDBT50Q-1MV2                | C5118826    | 6.9468         | 2   | -        |      [C5118826](https://jlcpcb.com/partdetail/C5118826)       |
 | LP2985-33DBVR (Voltage stabilizer/ 5V -> 3V3) | U4              |   1   | LP2985-3.3                  | C95414      | 0.12           |     | -        |        [C95414](https://jlcpcb.com/partdetail/C95414)         |
 | MCP73831T-2ACI/OT                             | U5              |   1   | MCP73831-2-OT               | C424093     | 0.72           |     | -        |       [C424093](https://jlcpcb.com/partdetail/C424093)        |
