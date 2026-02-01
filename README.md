@@ -1,6 +1,6 @@
 <h1 align="center"> Wireless-Modular Keyboard </h1>
 <div align="center">
-  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/3de422af-304e-4d5e-8017-280363eabc6f" />
+  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/899bfbe3-7878-422d-912f-0f8483b30df9" />
 </div>
 <p align="center">This project is a custom modular keyboard that has both wireless and wired capabilities. It also uses low profile, kailh choc hotswap switches increasing customizability and its overall asthetic. Additionally, it offers magnetic connection following the I2C protocol which enables any type of module can connect to the main board securely.</p>
 <h2></h2>
@@ -21,15 +21,17 @@
 <h4 align="center">Main board & Keypad</h4>
 <h3>PCB</h3>
 
-<img width="100%" alt="Back PCB" src="https://github.com/user-attachments/assets/0b47e930-3302-4fef-a9a6-45c70608f9eb" />
+<img width="100%" alt="Back PCB" src="https://github.com/user-attachments/assets/55b1fee9-7597-4d9e-af33-77cebefeb30b" />
 <h4 align="center">PCB back</h4>
-<img width="100%" alt="Front PCB" src="https://github.com/user-attachments/assets/b39220f1-5d92-44de-ac83-3a20c1671a27" />
+<img width="100%" alt="Front PCB" src="https://github.com/user-attachments/assets/88aabfbb-ed75-4faf-a7ea-ca7eb0322ed6" />
 <h4 align="center">PCB front</h4>
-<img width="100%" alt="PCB" src="https://github.com/user-attachments/assets/cedc6b69-ca47-4acc-819d-e210417ba209" />
+<img width="100%" alt="PCB" src="https://github.com/user-attachments/assets/22763bfc-8c2f-43b3-9449-3f1ad378f946" />
 <h4 align="center">PCB</h4>
-<img width="100%" alt="No-Components 3D View" src="https://github.com/user-attachments/assets/4a15fb1a-3f6e-4260-aa9d-c4ff45b4fd4e" />
+<img width="100%" alt="No-Components 3D View front" src="https://github.com/user-attachments/assets/b9dfe797-e4f7-4ee3-a5c0-865f6ab02bc6" />
+<img width="100%" alt="No-Components 3D View back" src="https://github.com/user-attachments/assets/56916c5d-ac22-474d-a6f6-55af1f2dd1df" />
 <h4 align="center">PCB 3D model</h4>
-<img width="100%" alt="3D view" src="https://github.com/user-attachments/assets/8116f531-b872-41ad-8eeb-bf7f7235af24"/>
+<img width="100%" alt="3D view front" src="https://github.com/user-attachments/assets/6fada7fb-e3c4-430e-a5cc-95d9550f9528"/>
+<img width="100%" alt="3D view back" src="https://github.com/user-attachments/assets/178e047a-2d77-4ffa-99f2-d338258371ae"/>
 <h4 align="center">PCB 3D model with components</h4>
 
 <h2>Firmware</h2>
@@ -71,6 +73,6 @@
 | lithium batteries        | -               |     2      | $9.03 (T)      |     | $5.43    |             [Aliexpress](https://www.aliexpress.com/item/1005010682559019.html)             |
 
 > *T for total price
-
+> 
 <h2>Keyboard Case</h2>
 <p>coming soon</p>
