@@ -64,13 +64,13 @@
 | MCP73831T-2ACI/OT        | U5              |     1      | 0.7279         | -   | LCSC     |                 [C424093](https://www.lcsc.com/product-detail/C424093.html)                 |
 | MCP23017                 | U7              |     1      | 1.9493         | -   | LCSC     |                 [C639770](https://www.lcsc.com/product-detail/C639770.html)                 |
 | LP2985-33DBVR            | U4              |     1      | 0.1365         | 5   | LCSC     |                  [C95414](https://www.lcsc.com/product-detail/C95414.html)                  |
-| Slide switch (1825232-1) | U12             |     1      | 0.8335         |     | LCSC     |                [C5167252](https://www.lcsc.com/product-detail/C5167252.html)                |
-| XIAO-nRF52840-SMD (MCU)  | U6              |     1      | 9.90           |     | 3.75     |       [Seed Studio](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)        |
-| MDBT50Q-1MV2 (MCU)       | U3              |     1      | 10.10          |     | >>       | [Seed Studio](https://www.seeedstudio.com/MDBT50Q-1M-nRF52840-Based-BLE-Module-p-3147.html) |
-| MT3608_Module            | U11             |     1      | 0.99           |     | $1.99    |             [Aliexpress](https://www.aliexpress.com/item/1005008597901992.html)             |
-| OLED Screen              | Brd11,Brd12     |     2      | 1.89           |     | $0.99    |             [Aliexpress](https://www.aliexpress.com/item/1005009242613187.html)             |
-| 1X6 Magnetic Pogo Pins   | Conn1-Conn8     | 8(4 pairs) | 1.84           |     | $4.65    |             [Aliexpress](https://www.aliexpress.com/item/1005007636554292.html)             |
-| lithium batteries        | -               |     2      | $9.03 (T)      |     | $5.43    |             [Aliexpress](https://www.aliexpress.com/item/1005010682559019.html)             |
+| Slide switch (1825232-1) | U12             |     1      | 0.8335         | -   | LCSC     |                [C5167252](https://www.lcsc.com/product-detail/C5167252.html)                |
+| XIAO-nRF52840-SMD (MCU)  | U6              |     1      | 9.90           | -   | 3.75     |       [Seed Studio](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)        |
+| MDBT50Q-1MV2 (MCU)       | U3              |     1      | 10.10          | -   | >>       | [Seed Studio](https://www.seeedstudio.com/MDBT50Q-1M-nRF52840-Based-BLE-Module-p-3147.html) |
+| MT3608_Module            | U11             |     1      | 0.99           | -   | $1.99    |             [Aliexpress](https://www.aliexpress.com/item/1005008597901992.html)             |
+| OLED Screen              | Brd11,Brd12     |     2      | 1.89           | -   | $0.99    |             [Aliexpress](https://www.aliexpress.com/item/1005009242613187.html)             |
+| 1X6 Magnetic Pogo Pins   | Conn1-Conn8     | 8(4 pairs) | 1.84           | -   | $4.65    |             [Aliexpress](https://www.aliexpress.com/item/1005007636554292.html)             |
+| lithium batteries        | -               |     2      | $9.03 (T)      | -   | $5.43    |             [Aliexpress](https://www.aliexpress.com/item/1005010682559019.html)             |
 
 > *T for total price
 > 
