@@ -2,7 +2,7 @@
 <div align="center">
   <img width="80%" alt="image" src="https://github.com/user-attachments/assets/899bfbe3-7878-422d-912f-0f8483b30df9" />
 </div>
-<p align="center">This project is a custom modular keyboard that has both wireless and wired capabilities. It also uses low profile, kailh choc hotswap switches increasing customizability and its overall asthetic. Additionally, it offers magnetic connection following the I2C protocol which enables any type of module can connect to the main board securely.</p>
+<p align="center">A custom modular keyboard that has both wireless and wired capabilities, uses low profile, kailh choc (V1) hotswap switches (with per key RGB lighting) and a magnetic pogo pin connection which follows the I2C protocol.</p>
 <h2></h2>
 <h2> Features </h2>
 
