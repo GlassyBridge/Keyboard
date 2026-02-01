@@ -35,7 +35,8 @@
 <h4 align="center">PCB 3D model with components</h4>
 
 <h2>Firmware</h2>
-<p>Coming soon</p>
+
+Available in the `Firmware` folder. (Basic version for now. I'll update it once I built the keyboard)
 <h2>Bill of Materials</h2>
 
 | Name                     | Reference       |    Qty     | Unit Price ($) | moq | Shipping |                                            Link                                             |
@@ -75,4 +76,4 @@
 > *T for total price
 > 
 <h2>Keyboard Case</h2>
-<p>coming soon</p>
+<p>To be built after the arrival of the keyboard.</p>
