@@ -71,6 +71,6 @@
 | lithium batteries        | -               |     2      | $9.03 (T)      |     | $5.43    |             [Aliexpress](https://www.aliexpress.com/item/1005010682559019.html)             |
 
 > *T for total price
-> 
+
 <h2>Keyboard Case</h2>
 <p>coming soon</p>
