@@ -405,4 +405,15 @@
 		(uuid "664797ad-0c48-491b-b83d-afef9a15ba3c")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d models/SK6812-E--3DModel-STEP-418109.STEP"
+		(offset
+			(xyz 0 5.15 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
 )

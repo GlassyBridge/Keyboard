@@ -1,4 +1,4 @@
-(footprint "XIAO-nRF52840-SMD"
+(footprint "modified-XIAO-nRF52840-SMD"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -457,4 +457,15 @@
 		(uuid "5a21b827-a784-4499-a073-0dae1770d259")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d models/XIAO-nRF52840 v15.step"
+		(offset
+			(xyz 6 -2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )

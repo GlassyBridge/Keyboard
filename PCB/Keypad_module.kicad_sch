@@ -3069,6 +3069,12 @@
 		(uuid "0257db04-8f5f-4fb0-bfc3-e237858c5a51")
 	)
 	(junction
+		(at 137.16 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03e10c46-a1f7-4b3c-8fd8-5cc7b1ee867e")
+	)
+	(junction
 		(at 50.8 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3087,16 +3093,16 @@
 		(uuid "064ecd32-3196-4a3e-a13e-3728bc3af606")
 	)
 	(junction
+		(at 109.22 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08a46458-eb46-43ad-9f80-a8391ec9fcb7")
+	)
+	(junction
 		(at 109.22 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08e57202-c53d-4636-82b2-6efbe18d46cc")
-	)
-	(junction
-		(at 81.28 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "097ac146-e765-4133-a786-6991987aad87")
 	)
 	(junction
 		(at 33.02 69.85)
@@ -3135,10 +3141,22 @@
 		(uuid "0f093af2-4ef2-4636-beb5-91e383be5ba5")
 	)
 	(junction
+		(at 81.28 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fefaa34-dda3-49ff-914d-61b6f32a5385")
+	)
+	(junction
 		(at 109.22 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12713744-42b1-4c41-a467-e04e343444d8")
+	)
+	(junction
+		(at 137.16 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "158949bd-8df4-4785-8687-8e519ffcc1f9")
 	)
 	(junction
 		(at 60.96 96.52)
@@ -3159,24 +3177,6 @@
 		(uuid "1e0bad86-1e1e-417d-bd06-42a5d2fe2c50")
 	)
 	(junction
-		(at 81.28 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23047f94-ce98-4026-b8c5-1918745a1e21")
-	)
-	(junction
-		(at 137.16 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2334dcde-2972-4c89-ad92-23e386bcabb6")
-	)
-	(junction
-		(at 81.28 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "275790bc-2b91-4568-bfbc-23c5d5cd1541")
-	)
-	(junction
 		(at 69.85 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3187,6 +3187,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40b1b9ff-cf93-4eb1-9632-d3cb911daac9")
+	)
+	(junction
+		(at 109.22 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44a2cdd7-4825-4288-a1ae-f0c4315c8baf")
 	)
 	(junction
 		(at 60.96 77.47)
@@ -3231,16 +3237,22 @@
 		(uuid "62c7c2dd-743e-4b68-bf79-9b64d65d8255")
 	)
 	(junction
-		(at 137.16 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64007a81-faa5-48e5-9039-413a8750433a")
-	)
-	(junction
 		(at 137.16 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fa7a93c-f18e-4a32-87d1-da744f7ffc72")
+	)
+	(junction
+		(at 137.16 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77713cb8-f8c5-4da5-89b8-fe9cc36e0337")
+	)
+	(junction
+		(at 53.34 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77cf0c54-ab4c-4484-ba03-99c7d38349b8")
 	)
 	(junction
 		(at 229.87 64.77)
@@ -3249,16 +3261,22 @@
 		(uuid "7c287668-6a78-4d69-96a9-46db668c02bb")
 	)
 	(junction
+		(at 81.28 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "800fa6cb-0402-4170-94ef-44dbba6e6555")
+	)
+	(junction
 		(at 53.34 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "824d951d-57de-437a-a58f-74e999709be5")
 	)
 	(junction
-		(at 53.34 142.24)
+		(at 137.16 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86cf7c95-a0dd-436f-8af5-859532049145")
+		(uuid "8d12b600-7282-4c3e-b6ba-b6628c813cce")
 	)
 	(junction
 		(at 53.34 193.04)
@@ -3273,10 +3291,22 @@
 		(uuid "8f4658a9-c630-4fea-9222-3b7d881306ed")
 	)
 	(junction
+		(at 53.34 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90ff25b8-f137-412a-b49a-bb075b04c2ac")
+	)
+	(junction
 		(at 227.33 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92e71137-f344-40e6-809b-c71592e006b5")
+	)
+	(junction
+		(at 81.28 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95305fc0-a15c-430c-b706-58732475fb11")
 	)
 	(junction
 		(at 33.02 31.75)
@@ -3321,28 +3351,10 @@
 		(uuid "aa6b072a-e106-468c-8a47-eaab06dba386")
 	)
 	(junction
-		(at 109.22 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b69452cd-a016-435e-9212-1c4038076888")
-	)
-	(junction
-		(at 137.16 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6ea9a98-062d-43f5-90a4-b775339f9d28")
-	)
-	(junction
 		(at 137.16 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcb2cb53-1232-4acc-8db6-bca10000171d")
-	)
-	(junction
-		(at 137.16 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c06fa83c-b169-47fb-a6f0-5f47862eecf1")
 	)
 	(junction
 		(at 189.23 34.29)
@@ -3355,12 +3367,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7640e1e-9fea-4158-a450-4d5e9c8e2b8d")
-	)
-	(junction
-		(at 109.22 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc94ff6e-0e1a-4536-8a02-30733f3ed458")
 	)
 	(junction
 		(at 60.96 58.42)
@@ -3379,12 +3385,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6874f7c-c96e-439f-8b06-e88ee5e03062")
-	)
-	(junction
-		(at 53.34 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9bfc6a0-3641-4fa9-806e-4cb2788d9684")
 	)
 	(junction
 		(at 43.18 96.52)
@@ -3423,12 +3423,6 @@
 		(uuid "f5572d24-fe3b-4e55-964d-3213024bb9a5")
 	)
 	(junction
-		(at 81.28 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f572256a-5d09-46e6-8146-2cb8e2a6e2db")
-	)
-	(junction
 		(at 43.18 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3439,6 +3433,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f90cd861-f8ad-4b39-a273-3df4108d4937")
+	)
+	(junction
+		(at 81.28 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f97fa3b5-351b-41ea-89e3-e2c8cf62f25b")
 	)
 	(junction
 		(at 109.22 193.04)
@@ -3457,10 +3457,6 @@
 	(no_connect
 		(at 181.61 38.1)
 		(uuid "13c4a6a8-24a5-4804-ab23-6995dbe17e13")
-	)
-	(no_connect
-		(at 181.61 53.34)
-		(uuid "14dda09f-2853-40b7-9d77-90500dd4138a")
 	)
 	(no_connect
 		(at 265.43 39.37)
@@ -3519,6 +3515,10 @@
 		(uuid "9b701469-aa4a-4e80-8017-08fb4d9f3348")
 	)
 	(no_connect
+		(at 139.7 38.1)
+		(uuid "b0648ea3-142b-4432-8398-bd8f87c9b33f")
+	)
+	(no_connect
 		(at 181.61 49.53)
 		(uuid "c267de9d-7225-4d0f-9787-216dcc0c079e")
 	)
@@ -3535,12 +3535,12 @@
 		(uuid "e68006bb-9fa6-488a-8001-1b948f8f9fb5")
 	)
 	(no_connect
-		(at 265.43 67.31)
-		(uuid "f777d564-2f1f-4ddb-8237-1975eacd00d0")
-	)
-	(no_connect
 		(at 229.87 44.45)
 		(uuid "f891514c-87da-4bd0-9176-9e73d938dcf5")
+	)
+	(no_connect
+		(at 265.43 29.21)
+		(uuid "fe9198f4-5964-41d6-8eef-efa5bb378c48")
 	)
 	(wire
 		(pts
@@ -3551,6 +3551,16 @@
 			(type default)
 		)
 		(uuid "050f5002-9ecb-4f50-8ec7-61d0437377ff")
+	)
+	(wire
+		(pts
+			(xy 137.16 160.02) (xy 163.83 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4a82a5-13a6-4f50-a036-b922948e3972")
 	)
 	(wire
 		(pts
@@ -3734,16 +3744,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 157.48) (xy 137.16 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "285d42a3-13d6-4c73-9e7e-7f12f74c4283")
-	)
-	(wire
-		(pts
 			(xy 116.84 132.08) (xy 129.54 132.08)
 		)
 		(stroke
@@ -3751,6 +3751,16 @@
 			(type default)
 		)
 		(uuid "28ee62c6-f49a-4a69-9b58-837a76514d8f")
+	)
+	(wire
+		(pts
+			(xy 109.22 160.02) (xy 137.16 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b403d2-5e21-47fc-bc82-66aab059028d")
 	)
 	(wire
 		(pts
@@ -3894,6 +3904,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 160.02) (xy 109.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ae1720-d5e5-49b8-8df4-7b73a9a56b44")
+	)
+	(wire
+		(pts
 			(xy 121.92 45.72) (xy 121.92 48.26)
 		)
 		(stroke
@@ -3954,13 +3974,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 157.48) (xy 81.28 157.48)
+			(xy 137.16 157.48) (xy 163.83 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "584602bd-e13b-4ad5-9e7d-aaeea6366e26")
+		(uuid "56446062-32a4-40f6-916c-0f68f2044f43")
 	)
 	(wire
 		(pts
@@ -4021,16 +4041,6 @@
 			(type default)
 		)
 		(uuid "639fe70b-9efe-447d-a850-529706b3c471")
-	)
-	(wire
-		(pts
-			(xy 137.16 160.02) (xy 163.83 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63ae8b97-f4b1-4d1e-b382-ce0a2fa61374")
 	)
 	(wire
 		(pts
@@ -4134,16 +4144,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 142.24) (xy 137.16 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7325d56b-fa35-4c79-a721-d2b23c6eba10")
-	)
-	(wire
-		(pts
 			(xy 88.9 132.08) (xy 101.6 132.08)
 		)
 		(stroke
@@ -4174,7 +4174,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 157.48) (xy 45.72 157.48)
+			(xy 53.34 157.48) (xy 81.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77573075-2bd3-4d6a-bfb6-f15ea3911203")
+	)
+	(wire
+		(pts
+			(xy 45.72 157.48) (xy 53.34 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4234,26 +4244,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 175.26) (xy 144.78 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f9bfb5f-a716-4579-95c7-e24965257dd9")
-	)
-	(wire
-		(pts
-			(xy 109.22 142.24) (xy 81.28 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82f981db-0518-4fb3-841a-1762db16be51")
-	)
-	(wire
-		(pts
 			(xy 69.85 88.9) (xy 69.85 109.22)
 		)
 		(stroke
@@ -4264,23 +4254,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 142.24) (xy 109.22 142.24)
+			(xy 81.28 142.24) (xy 109.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857ffde8-339d-46e6-8bb5-fb76f8ca36d8")
+	)
+	(wire
+		(pts
+			(xy 109.22 142.24) (xy 137.16 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "88b02ba8-c96c-42ed-a254-874f8c4ba280")
-	)
-	(wire
-		(pts
-			(xy 109.22 160.02) (xy 137.16 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89c46fc3-8755-4dbd-bb26-dc09c1c6e557")
 	)
 	(wire
 		(pts
@@ -4364,16 +4354,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 157.48) (xy 53.34 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b5e91d-8376-47bd-baed-a84c661a4584")
-	)
-	(wire
-		(pts
 			(xy 226.06 49.53) (xy 227.33 49.53)
 		)
 		(stroke
@@ -4454,6 +4434,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 142.24) (xy 144.78 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16045c5-6d32-40f3-b973-25000d2f99b0")
+	)
+	(wire
+		(pts
 			(xy 27.94 39.37) (xy 43.18 39.37)
 		)
 		(stroke
@@ -4491,6 +4481,16 @@
 			(type default)
 		)
 		(uuid "a3247632-2ba8-471d-9fdf-9f60b37d013f")
+	)
+	(wire
+		(pts
+			(xy 109.22 175.26) (xy 137.16 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33a7f51-9129-452a-8497-a130cc062801")
 	)
 	(wire
 		(pts
@@ -4574,6 +4574,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 175.26) (xy 109.22 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5537291-43b1-4e6e-ac38-cb43e5b6fea9")
+	)
+	(wire
+		(pts
+			(xy 53.34 142.24) (xy 81.28 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b55dfd14-b25e-4c5e-b4bf-388b7814321d")
+	)
+	(wire
+		(pts
 			(xy 50.8 19.05) (xy 50.8 31.75)
 		)
 		(stroke
@@ -4634,7 +4654,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 38.1 142.24)
+			(xy 38.1 142.24) (xy 53.34 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4661,26 +4681,6 @@
 			(type default)
 		)
 		(uuid "ca83920c-3d64-4dcf-b48e-d62efda6be64")
-	)
-	(wire
-		(pts
-			(xy 81.28 175.26) (xy 109.22 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cacb86d4-2832-470d-aa17-695f1b7cd2da")
-	)
-	(wire
-		(pts
-			(xy 109.22 175.26) (xy 137.16 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb6da7c8-1215-42d1-88f9-e12f55f2f11d")
 	)
 	(wire
 		(pts
@@ -4744,6 +4744,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 157.48) (xy 109.22 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d390852d-74b4-42e3-a2c3-a4d6d9d243ae")
+	)
+	(wire
+		(pts
 			(xy 27.94 58.42) (xy 43.18 58.42)
 		)
 		(stroke
@@ -4764,7 +4774,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 157.48) (xy 109.22 157.48)
+			(xy 109.22 157.48) (xy 137.16 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4854,6 +4864,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 175.26) (xy 144.78 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff643f8-20c1-4aac-a3c5-88ba10dcc2c3")
+	)
+	(wire
+		(pts
 			(xy 191.77 46.99) (xy 189.23 46.99)
 		)
 		(stroke
@@ -4904,16 +4924,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 160.02) (xy 109.22 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f922a96c-ce65-4473-a81a-01a689a8453d")
-	)
-	(wire
-		(pts
 			(xy 163.83 193.04) (xy 137.16 193.04)
 		)
 		(stroke
@@ -4951,16 +4961,6 @@
 			(type default)
 		)
 		(uuid "fb1a6b70-1f32-4a54-9b1a-7c218c99251c")
-	)
-	(wire
-		(pts
-			(xy 81.28 142.24) (xy 53.34 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd82d23d-8eab-4d6c-b397-4c812a06dabb")
 	)
 	(wire
 		(pts
@@ -5513,7 +5513,7 @@
 	)
 	(global_label "KCOL2"
 		(shape input)
-		(at 265.43 26.67 0)
+		(at 265.43 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5524,7 +5524,7 @@
 		)
 		(uuid "815adc8f-2d23-4093-a039-d6edc16845f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.9993 26.67 0)
+			(at 274.9993 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5625,7 @@
 	)
 	(global_label "KCOL3"
 		(shape input)
-		(at 265.43 29.21 0)
+		(at 265.43 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5636,7 +5636,7 @@
 		)
 		(uuid "976b293e-f9e5-4792-9c14-0abb31fbe24d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.9993 29.21 0)
+			(at 274.9993 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,23 +6252,23 @@
 	)
 	(global_label "KBT_PIN"
 		(shape input)
-		(at 139.7 38.1 180)
+		(at 181.61 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f8b283b8-eb45-4a40-96d5-184495d3cb4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.0343 38.1 0)
+			(at 192.2757 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6407,7 +6407,7 @@
 	)
 	(symbol
 		(lib_id "ggxxacpy:SK6803MINI-E")
-		(at 81.28 185.42 0)
+		(at 137.16 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6416,7 +6416,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c761264-42b5-4d2d-b839-80b9c67bb0bf")
 		(property "Reference" "LED97"
-			(at 95.25 178.9998 0)
+			(at 151.13 162.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6424,7 @@
 			)
 		)
 		(property "Value" "SK6803MINI-E"
-			(at 95.25 181.5398 0)
+			(at 151.13 164.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +6432,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED"
-			(at 81.28 185.42 0)
+			(at 137.16 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +6441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 185.42 0)
+			(at 137.16 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +6450,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 81.28 185.42 0)
+			(at 137.16 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7036,7 @@
 	)
 	(symbol
 		(lib_id "ggxxacpy:SK6803MINI-E")
-		(at 53.34 167.64 180)
+		(at 53.34 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7045,7 +7045,7 @@
 		(fields_autoplaced yes)
 		(uuid "182d5626-2105-44a7-b27a-1fe92f0d0734")
 		(property "Reference" "LED91"
-			(at 67.31 162.1946 0)
+			(at 67.31 143.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7053,7 @@
 			)
 		)
 		(property "Value" "SK6803MINI-E"
-			(at 67.31 164.7346 0)
+			(at 67.31 145.9798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +7061,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED"
-			(at 53.34 167.64 0)
+			(at 53.34 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 167.64 0)
+			(at 53.34 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +7079,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 53.34 167.64 0)
+			(at 53.34 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7628,7 +7628,7 @@
 	)
 	(symbol
 		(lib_id "ggxxacpy:SK6803MINI-E")
-		(at 109.22 185.42 0)
+		(at 137.16 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7637,7 +7637,7 @@
 		(fields_autoplaced yes)
 		(uuid "24cb9142-e9bc-4b77-9899-76df1fd08602")
 		(property "Reference" "LED96"
-			(at 123.19 178.9998 0)
+			(at 151.13 178.9998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +7645,7 @@
 			)
 		)
 		(property "Value" "SK6803MINI-E"
-			(at 123.19 181.5398 0)
+			(at 151.13 181.5398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +7653,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED"
-			(at 109.22 185.42 0)
+			(at 137.16 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +7662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 185.42 0)
+			(at 137.16 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7671,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 109.22 185.42 0)
+			(at 137.16 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8098,7 @@
 	)
 	(symbol
 		(lib_id "ggxxacpy:SK6803MINI-E")
-		(at 137.16 185.42 0)
+		(at 109.22 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8107,7 +8107,7 @@
 		(fields_autoplaced yes)
 		(uuid "37918a97-2a5d-4c7b-a1de-dfae5814201b")
 		(property "Reference" "LED95"
-			(at 151.13 178.9998 0)
+			(at 123.19 178.9998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8115,7 @@
 			)
 		)
 		(property "Value" "SK6803MINI-E"
-			(at 151.13 181.5398 0)
+			(at 123.19 181.5398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,7 +8123,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED"
-			(at 137.16 185.42 0)
+			(at 109.22 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8132,7 +8132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 185.42 0)
+			(at 109.22 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,7 +8141,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 137.16 185.42 0)
+			(at 109.22 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +8363,7 @@
 	)
 	(symbol
 		(lib_id "ggxxacpy:SK6803MINI-E")
-		(at 81.28 149.86 0)
+		(at 137.16 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8372,7 +8372,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c6dffbd-095b-4d69-b09e-25336394f829")
 		(property "Reference" "LED89"
-			(at 95.25 143.4398 0)
+			(at 151.13 143.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +8380,7 @@
 			)
 		)
 		(property "Value" "SK6803MINI-E"
-			(at 95.25 145.9798 0)
+			(at 151.13 145.9798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8388,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED"
-			(at 81.28 149.86 0)
+			(at 137.16 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +8397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 149.86 0)
+			(at 137.16 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8406,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 81.28 149.86 0)
+			(at 137.16 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8559,7 +8559,7 @@
 	)
 	(symbol
 		(lib_id "ggxxacpy:SK6803MINI-E")
-		(at 137.16 149.86 0)
+		(at 81.28 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8568,7 +8568,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f733257-44b3-44b0-9635-e0da5f923d88")
 		(property "Reference" "LED87"
-			(at 151.13 143.4398 0)
+			(at 95.25 143.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +8576,7 @@
 			)
 		)
 		(property "Value" "SK6803MINI-E"
-			(at 151.13 145.9798 0)
+			(at 95.25 145.9798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8584,7 +8584,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED"
-			(at 137.16 149.86 0)
+			(at 81.28 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +8593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 149.86 0)
+			(at 81.28 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +8602,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 137.16 149.86 0)
+			(at 81.28 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11555,7 +11555,7 @@
 	)
 	(symbol
 		(lib_id "ggxxacpy:SK6803MINI-E")
-		(at 137.16 167.64 180)
+		(at 81.28 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11564,7 +11564,7 @@
 		(fields_autoplaced yes)
 		(uuid "916732f8-838b-4c9b-982b-e75ad54f713a")
 		(property "Reference" "LED94"
-			(at 151.13 162.1946 0)
+			(at 95.25 178.9998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11572,7 +11572,7 @@
 			)
 		)
 		(property "Value" "SK6803MINI-E"
-			(at 151.13 164.7346 0)
+			(at 95.25 181.5398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11580,7 +11580,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED"
-			(at 137.16 167.64 0)
+			(at 81.28 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11589,7 +11589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 167.64 0)
+			(at 81.28 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11598,7 +11598,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 137.16 167.64 0)
+			(at 81.28 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,7 +12697,7 @@
 	)
 	(symbol
 		(lib_id "ggxxacpy:SK6803MINI-E")
-		(at 81.28 167.64 180)
+		(at 53.34 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12706,7 +12706,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4ab6cc8-c2fe-4f93-9b78-d2b139cf03cf")
 		(property "Reference" "LED92"
-			(at 95.25 162.1946 0)
+			(at 67.31 162.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12714,7 +12714,7 @@
 			)
 		)
 		(property "Value" "SK6803MINI-E"
-			(at 95.25 164.7346 0)
+			(at 67.31 164.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12722,7 +12722,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED"
-			(at 81.28 167.64 0)
+			(at 53.34 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12731,7 +12731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 167.64 0)
+			(at 53.34 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12740,7 +12740,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 81.28 167.64 0)
+			(at 53.34 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13129,7 +13129,7 @@
 	)
 	(symbol
 		(lib_id "ggxxacpy:SK6803MINI-E")
-		(at 109.22 167.64 180)
+		(at 81.28 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13138,7 +13138,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca153d8d-bc06-48c8-8d10-f3341ea12175")
 		(property "Reference" "LED93"
-			(at 123.19 162.1946 0)
+			(at 95.25 162.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,7 +13146,7 @@
 			)
 		)
 		(property "Value" "SK6803MINI-E"
-			(at 123.19 164.7346 0)
+			(at 95.25 164.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13154,7 +13154,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED"
-			(at 109.22 167.64 0)
+			(at 81.28 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +13163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 167.64 0)
+			(at 81.28 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,7 +13172,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 109.22 167.64 0)
+			(at 81.28 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14875,7 +14875,7 @@
 	)
 	(symbol
 		(lib_id "ggxxacpy:SK6803MINI-E")
-		(at 53.34 149.86 0)
+		(at 109.22 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14884,7 +14884,7 @@
 		(fields_autoplaced yes)
 		(uuid "fea47217-622d-49be-92f4-0990a9347559")
 		(property "Reference" "LED90"
-			(at 67.31 143.4398 0)
+			(at 123.19 162.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14892,7 +14892,7 @@
 			)
 		)
 		(property "Value" "SK6803MINI-E"
-			(at 67.31 145.9798 0)
+			(at 123.19 164.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14900,7 +14900,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED"
-			(at 53.34 149.86 0)
+			(at 109.22 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14909,7 +14909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 149.86 0)
+			(at 109.22 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14918,7 +14918,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 53.34 149.86 0)
+			(at 109.22 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -775,44 +775,6 @@
 			)
 		)
 	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "c6ce9110-1bd7-48b8-8fca-6f8455cab0a4")
-		(pts
-			(xy 11.25 0) (xy 11.90625 0)
-		)
-		(height 0)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "0.6562"
-			(at 11.578125 -1.15 0)
-			(layer "Dwgs.User")
-			(uuid "c6ce9110-1bd7-48b8-8fca-6f8455cab0a4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
 	(pad "" np_thru_hole circle
 		(at 0 0 180)
 		(size 5 5)
@@ -873,4 +835,15 @@
 		(uuid "bdbf425b-fa3e-49fb-8586-c88233301e99")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d models/choc_socket.step"
+		(offset
+			(xyz 5 -3.75 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
 )

@@ -748,4 +748,15 @@
 		(uuid "45dfbdc6-7d15-4ad0-8d0a-c5607c4b7b4c")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d models/choc_socket.step"
+		(offset
+			(xyz 5 -3.75 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
 )

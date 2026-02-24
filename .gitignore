@@ -10,13 +10,13 @@
 *~
 ~*
 _autosave-*
-\#auto_saved_files\#
+#auto_saved_files
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
 ~*.lck
-\#auto_saved_files#
+#auto_saved_files
 **/*-backups/*.zip
 *.kicad_prl
 .DS_Store
