@@ -4167,6 +4167,154 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SSD1306-128x64_OLED:SSD1306"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Brd"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SSD1306"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSD1306-128x64_OLED:SSD1306"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SSD1306_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SSD1306_1_1"
+				(pin input line
+					(at -3.81 8.89 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 8.89 270)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 8.89 270)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -4983,14 +5131,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Support Holes\n"
+	(text_box "PWR_FLAGS"
 		(exclude_from_sim no)
-		(at 308.61 121.92 0)
-		(size 23.495 26.67)
+		(at 278.13 139.192 0)
+		(size 24.13 32.004)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -5001,7 +5149,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "12a044ca-de36-42a7-8037-b0a683283b33")
+		(uuid "001ea4fc-ee58-4380-aafa-468b18be7435")
 	)
 	(text_box "USB detection\n"
 		(exclude_from_sim no)
@@ -5043,26 +5191,6 @@
 			(justify right top)
 		)
 		(uuid "2985dab6-fad7-454c-9c67-29af1d9e1f6a")
-	)
-	(text_box "Mounting holes"
-		(exclude_from_sim no)
-		(at 334.645 121.92 0)
-		(size 20.955 26.67)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "34c9aaf3-03fb-4d74-8efd-64302ba988a2")
 	)
 	(text_box "Module connectors\n"
 		(exclude_from_sim no)
@@ -5187,6 +5315,26 @@
 		)
 		(uuid "751569d1-3cda-4202-8b91-1ca07af40b93")
 	)
+	(text_box "OLED\n"
+		(exclude_from_sim no)
+		(at 182.245 238.125 0)
+		(size 43.18 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7d57f624-958a-46db-a114-f4cfb9d08c61")
+	)
 	(text_box "ESD protection\n"
 		(exclude_from_sim no)
 		(at 53.34 198.12 0)
@@ -5247,6 +5395,26 @@
 			(justify left top)
 		)
 		(uuid "95582229-a8b4-4794-949e-f053d500e5c8")
+	)
+	(text_box "Holes"
+		(exclude_from_sim no)
+		(at 249.555 203.2 0)
+		(size 27.305 33.655)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a22dc0af-254d-4dba-ab60-28d58f195733")
 	)
 	(text_box "Boost converter\n"
 		(exclude_from_sim no)
@@ -6391,6 +6559,10 @@
 		(uuid "fd74b9c3-8c2f-4ab4-86bd-e658b83c49c3")
 	)
 	(no_connect
+		(at 111.76 222.25)
+		(uuid "0b6b192c-9fd1-4e28-8fda-b0384f5a59a1")
+	)
+	(no_connect
 		(at 111.76 181.61)
 		(uuid "1736c8ad-c881-4ca7-9bda-17072d3a8439")
 	)
@@ -6399,12 +6571,68 @@
 		(uuid "3f4972fc-c19d-499e-87d0-5f061891e3e0")
 	)
 	(no_connect
+		(at 152.4 222.25)
+		(uuid "4363ad4a-c114-410b-af26-eaa56f2539f8")
+	)
+	(no_connect
+		(at 111.76 227.33)
+		(uuid "4e705a16-b39e-4a5b-962a-15f4ab784e53")
+	)
+	(no_connect
+		(at 152.4 217.17)
+		(uuid "5322c837-8bb2-4c45-9921-362caa95cf29")
+	)
+	(no_connect
+		(at 111.76 224.79)
+		(uuid "75fe1014-1a10-462b-917b-a15ddbcfc3f3")
+	)
+	(no_connect
+		(at 111.76 217.17)
+		(uuid "7946261c-0c31-442a-90e6-640d346af4a6")
+	)
+	(no_connect
+		(at 152.4 207.01)
+		(uuid "83f644dc-1711-4a4f-b3d5-8b25cce0cdb1")
+	)
+	(no_connect
+		(at 152.4 209.55)
+		(uuid "9c92e4f2-7bfe-4f7c-a968-a96869da7b41")
+	)
+	(no_connect
+		(at 111.76 229.87)
+		(uuid "a131c707-ea6c-4100-b298-0e11373ca9c1")
+	)
+	(no_connect
 		(at 111.76 196.85)
 		(uuid "a3ef481e-3c15-4336-9231-1d91b83d483e")
 	)
 	(no_connect
+		(at 152.4 214.63)
+		(uuid "b66f31c0-a65b-4e52-bb39-af18db740b86")
+	)
+	(no_connect
+		(at 152.4 212.09)
+		(uuid "b7f5e405-8c66-4bd7-b0f1-9ae565a0c805")
+	)
+	(no_connect
+		(at 111.76 219.71)
+		(uuid "c3ef7e6f-4010-4cbb-99dd-00ccca27abd7")
+	)
+	(no_connect
+		(at 111.76 173.99)
+		(uuid "c94c50ed-73e2-4b92-9d7b-79a294c479b5")
+	)
+	(no_connect
 		(at 111.76 199.39)
 		(uuid "d196d94a-d716-463c-8eee-2d6ba0d9d334")
+	)
+	(no_connect
+		(at 152.4 232.41)
+		(uuid "ee8983dc-528c-48b3-9cb0-4d18dc2c4dcd")
+	)
+	(no_connect
+		(at 152.4 224.79)
+		(uuid "f9bf2097-37c2-4f8f-979b-1a677c602853")
 	)
 	(no_connect
 		(at 111.76 214.63)
@@ -8952,6 +9180,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 252.73) (xy 196.85 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ca336b-b6d6-4434-b9f1-dcc7ce4ad8cd")
+	)
+	(wire
+		(pts
 			(xy 195.58 71.12) (xy 195.58 90.17)
 		)
 		(stroke
@@ -9607,6 +9845,28 @@
 			)
 		)
 	)
+	(global_label "MSCL"
+		(shape input)
+		(at 196.85 247.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b5d2479-8527-4a51-9d39-6522787d424a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.9058 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
 		(at 99.06 207.01 0)
@@ -9958,6 +10218,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M5V_LED"
+		(shape input)
+		(at 295.91 151.13 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e97cf18-54ad-4102-a76a-7bdcc9c2ff82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.91 162.2794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10473,6 +10755,28 @@
 			)
 		)
 	)
+	(global_label "M5V_boosted"
+		(shape input)
+		(at 293.37 162.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82f8ed8b-deba-482a-a77a-2131d0a1df10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.37 147.4193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MVSYS"
 		(shape input)
 		(at 193.04 209.55 180)
@@ -10574,6 +10878,29 @@
 		(uuid "8794f769-6283-490d-8f91-888060a89286")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 231.1789 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MVSYS"
+		(shape input)
+		(at 290.83 149.86 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "892e1335-f30c-4c87-90d9-3358ae8b2aec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.83 158.8928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,6 +11508,28 @@
 			)
 		)
 	)
+	(global_label "M3V3"
+		(shape input)
+		(at 288.29 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4ba6bcf-81ab-4738-bec2-3ac76a689f7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.29 152.0758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MVBUS"
 		(shape input)
 		(at 52.07 149.86 0)
@@ -11216,6 +11565,28 @@
 		(uuid "db1a87c8-0e03-4ec8-b781-97126542d00b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.6253 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M3V3"
+		(shape input)
+		(at 196.85 250.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db89b5a6-aac1-4aea-9113-274196cc9a4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.9058 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,6 +12039,28 @@
 			)
 		)
 	)
+	(global_label "MSDA"
+		(shape input)
+		(at 196.85 245.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fec441aa-44c4-4c8d-83bf-60876bdf89f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.8453 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 236.22 53.34 0)
@@ -11694,7 +12087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 236.22 48.26 0)
 			(effects
 				(font
@@ -11890,7 +12283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 200.66 66.04 0)
 			(effects
 				(font
@@ -12012,7 +12405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 182.88 66.04 0)
 			(effects
 				(font
@@ -13047,7 +13440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_6u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_6u"
 			(at 147.32 120.65 0)
 			(effects
 				(font
@@ -13756,7 +14149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 182.88 85.09 0)
 			(effects
 				(font
@@ -14292,7 +14685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 271.78 102.87 0)
 			(effects
 				(font
@@ -14414,7 +14807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 289.56 48.26 0)
 			(effects
 				(font
@@ -14602,7 +14995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 236.22 85.09 0)
 			(effects
 				(font
@@ -15252,7 +15645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 182.88 102.87 0)
 			(effects
 				(font
@@ -15759,7 +16152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 289.56 66.04 0)
 			(effects
 				(font
@@ -16023,7 +16416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 254 48.26 0)
 			(effects
 				(font
@@ -16145,7 +16538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 200.66 120.65 0)
 			(effects
 				(font
@@ -16305,6 +16698,72 @@
 			(project "Keyboard"
 				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 284.48 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27723e4b-7362-4d97-be97-0a9d73837b55")
+		(property "Reference" "#FLG04"
+			(at 284.48 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 284.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 284.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0ca9ec1-66a0-4574-8c8e-8cea3ef65f70")
+		)
+		(instances
+			(project ""
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -16596,7 +17055,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 346.71 137.16 0)
+		(at 266.7 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16604,7 +17063,7 @@
 		(dnp no)
 		(uuid "298b392a-5fab-4c74-a917-79d73c6ba2c7")
 		(property "Reference" "H8"
-			(at 349.25 137.414 0)
+			(at 269.24 228.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16613,7 +17072,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 349.25 138.4299 0)
+			(at 269.24 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16623,7 +17082,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 346.71 137.16 0)
+			(at 266.7 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16632,7 +17091,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.71 137.16 0)
+			(at 266.7 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16641,7 +17100,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 346.71 137.16 0)
+			(at 266.7 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16650,7 +17109,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 346.71 137.16 0)
+			(at 266.7 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16659,7 +17118,7 @@
 			)
 		)
 		(property "Shipping" ""
-			(at 346.71 137.16 0)
+			(at 266.7 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16668,7 +17127,7 @@
 			)
 		)
 		(property "moq" ""
-			(at 346.71 137.16 0)
+			(at 266.7 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16677,7 +17136,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 346.71 137.16 0)
+			(at 266.7 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16720,7 +17179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 93.98 85.09 0)
 			(effects
 				(font
@@ -16842,7 +17301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 147.32 102.87 0)
 			(effects
 				(font
@@ -16964,7 +17423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 289.56 120.65 0)
 			(effects
 				(font
@@ -17086,7 +17545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -17350,7 +17809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 93.98 48.26 0)
 			(effects
 				(font
@@ -17680,7 +18139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 93.98 30.48 0)
 			(effects
 				(font
@@ -17925,7 +18384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 58.42 120.65 0)
 			(effects
 				(font
@@ -18331,7 +18790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 111.76 85.09 0)
 			(effects
 				(font
@@ -18937,7 +19396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 41.91 30.48 0)
 			(effects
 				(font
@@ -19035,7 +19494,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 312.42 137.16 0)
+		(at 256.54 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -19043,7 +19502,7 @@
 		(dnp no)
 		(uuid "3c504610-e4e3-4c40-bcef-f172a0058881")
 		(property "Reference" "H5"
-			(at 314.96 137.414 0)
+			(at 259.08 222.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19052,7 +19511,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 314.96 138.4299 0)
+			(at 259.08 223.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19062,7 +19521,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 312.42 137.16 0)
+			(at 256.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19071,7 +19530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 312.42 137.16 0)
+			(at 256.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19080,7 +19539,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 312.42 137.16 0)
+			(at 256.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19089,7 +19548,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 312.42 137.16 0)
+			(at 256.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19098,7 +19557,7 @@
 			)
 		)
 		(property "Shipping" ""
-			(at 312.42 137.16 0)
+			(at 256.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19107,7 +19566,7 @@
 			)
 		)
 		(property "moq" ""
-			(at 312.42 137.16 0)
+			(at 256.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19116,7 +19575,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 312.42 137.16 0)
+			(at 256.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19159,7 +19618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1.75u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1.75u"
 			(at 254 102.87 0)
 			(effects
 				(font
@@ -19565,7 +20024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 236.22 30.48 0)
 			(effects
 				(font
@@ -19896,7 +20355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1.75u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1.75u"
 			(at 41.91 85.09 0)
 			(effects
 				(font
@@ -20927,6 +21386,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 295.91 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ca81676-1328-4e21-8d34-cfba83f3ed26")
+		(property "Reference" "#FLG08"
+			(at 295.91 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 298.704 156.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 295.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 295.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f34b631d-cbc7-4ea7-a247-f3b38b916bd7")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 271.78 71.12 0)
 		(unit 1)
@@ -20952,7 +21476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1.5u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1.5u"
 			(at 271.78 66.04 0)
 			(effects
 				(font
@@ -21074,7 +21598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 254 66.04 0)
 			(effects
 				(font
@@ -21196,7 +21720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 165.1 85.09 0)
 			(effects
 				(font
@@ -21318,7 +21842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 271.78 30.48 0)
 			(effects
 				(font
@@ -21416,7 +21940,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 346.71 128.27 0)
+		(at 266.7 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -21424,7 +21948,7 @@
 		(dnp no)
 		(uuid "4fb866e1-7abe-462d-b400-79473cdd7385")
 		(property "Reference" "H2"
-			(at 349.25 128.524 0)
+			(at 269.24 209.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21433,7 +21957,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 349.25 129.5399 0)
+			(at 269.24 210.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21443,7 +21967,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 346.71 128.27 0)
+			(at 266.7 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21452,7 +21976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.71 128.27 0)
+			(at 266.7 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21461,7 +21985,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 346.71 128.27 0)
+			(at 266.7 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21470,7 +21994,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 346.71 128.27 0)
+			(at 266.7 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21479,7 +22003,7 @@
 			)
 		)
 		(property "Shipping" ""
-			(at 346.71 128.27 0)
+			(at 266.7 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21488,7 +22012,7 @@
 			)
 		)
 		(property "moq" ""
-			(at 346.71 128.27 0)
+			(at 266.7 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21497,7 +22021,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 346.71 128.27 0)
+			(at 266.7 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21540,7 +22064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 93.98 102.87 0)
 			(effects
 				(font
@@ -21662,7 +22186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -21905,7 +22429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 254 30.48 0)
 			(effects
 				(font
@@ -22215,7 +22739,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 337.82 128.27 0)
+		(at 256.54 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -22223,7 +22747,7 @@
 		(dnp no)
 		(uuid "52e2f286-503c-4d67-9494-ce98925be2d3")
 		(property "Reference" "H1"
-			(at 340.36 128.524 0)
+			(at 259.08 209.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22232,7 +22756,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 340.36 129.5399 0)
+			(at 259.08 210.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22242,7 +22766,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 337.82 128.27 0)
+			(at 256.54 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22251,7 +22775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 337.82 128.27 0)
+			(at 256.54 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22260,7 +22784,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 337.82 128.27 0)
+			(at 256.54 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22269,7 +22793,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 337.82 128.27 0)
+			(at 256.54 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22278,7 +22802,7 @@
 			)
 		)
 		(property "Shipping" ""
-			(at 337.82 128.27 0)
+			(at 256.54 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22287,7 +22811,7 @@
 			)
 		)
 		(property "moq" ""
-			(at 337.82 128.27 0)
+			(at 256.54 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22296,7 +22820,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 337.82 128.27 0)
+			(at 256.54 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22757,7 +23281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 111.76 66.04 0)
 			(effects
 				(font
@@ -23490,7 +24014,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 337.82 137.16 0)
+		(at 256.54 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -23498,7 +24022,7 @@
 		(dnp no)
 		(uuid "5d611d5c-d96b-4385-bffd-6ed944aaeae2")
 		(property "Reference" "H7"
-			(at 340.36 137.414 0)
+			(at 259.08 228.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23507,7 +24031,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 340.36 138.4299 0)
+			(at 259.08 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23517,7 +24041,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 337.82 137.16 0)
+			(at 256.54 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23526,7 +24050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 337.82 137.16 0)
+			(at 256.54 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23535,7 +24059,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 337.82 137.16 0)
+			(at 256.54 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23544,7 +24068,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 337.82 137.16 0)
+			(at 256.54 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23553,7 +24077,7 @@
 			)
 		)
 		(property "Shipping" ""
-			(at 337.82 137.16 0)
+			(at 256.54 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23562,7 +24086,7 @@
 			)
 		)
 		(property "moq" ""
-			(at 337.82 137.16 0)
+			(at 256.54 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23571,7 +24095,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 337.82 137.16 0)
+			(at 256.54 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23614,7 +24138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 200.66 85.09 0)
 			(effects
 				(font
@@ -23858,7 +24382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 147.32 48.26 0)
 			(effects
 				(font
@@ -24122,7 +24646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 58.42 85.09 0)
 			(effects
 				(font
@@ -24244,7 +24768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 165.1 30.48 0)
 			(effects
 				(font
@@ -24366,7 +24890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 218.44 48.26 0)
 			(effects
 				(font
@@ -24522,6 +25046,71 @@
 			(project "Keyboard"
 				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 284.48 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "667fcd71-5ff7-422b-a16d-5854030d7cbb")
+		(property "Reference" "#PWR042"
+			(at 284.48 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 284.48 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 284.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e5e5b21-6454-4c34-a1de-4d6246abb16f")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -25023,7 +25612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 289.56 30.48 0)
 			(effects
 				(font
@@ -25145,7 +25734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 41.91 48.26 0)
 			(effects
 				(font
@@ -25785,6 +26374,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 193.04 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "702a9b30-faa1-4ab2-9fda-dfcf01b07f81")
+		(property "Reference" "#PWR030"
+			(at 193.04 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aab7ca5e-eaff-4a57-a229-8427932e7289")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 147.32 35.56 0)
 		(unit 1)
@@ -25810,7 +26465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 147.32 30.48 0)
 			(effects
 				(font
@@ -25998,7 +26653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -27180,7 +27835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 200.66 102.87 0)
 			(effects
 				(font
@@ -27367,7 +28022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_2.25u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_2.25u"
 			(at 41.91 102.87 0)
 			(effects
 				(font
@@ -28804,7 +29459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -28991,7 +29646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 111.76 48.26 0)
 			(effects
 				(font
@@ -29113,7 +29768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 76.2 30.48 0)
 			(effects
 				(font
@@ -29276,6 +29931,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 293.37 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "938f9070-b0ab-4b37-bf55-debd334273d0")
+		(property "Reference" "#FLG07"
+			(at 293.37 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 293.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 293.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce5cddb5-4f57-468b-bcfa-1e132caa3da6")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 271.78 53.34 0)
 		(unit 1)
@@ -29301,7 +30022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_2u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_2u"
 			(at 271.78 48.26 0)
 			(effects
 				(font
@@ -29399,7 +30120,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 323.85 129.54 0)
+		(at 266.7 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -29407,7 +30128,7 @@
 		(dnp no)
 		(uuid "95a22cdb-2a27-413c-bbad-ba080e6bbdef")
 		(property "Reference" "H4"
-			(at 326.39 129.794 0)
+			(at 269.24 216.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29416,7 +30137,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 326.39 130.8099 0)
+			(at 269.24 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29426,7 +30147,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 323.85 129.54 0)
+			(at 266.7 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29435,7 +30156,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 323.85 129.54 0)
+			(at 266.7 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29444,7 +30165,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 323.85 129.54 0)
+			(at 266.7 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29453,7 +30174,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 323.85 129.54 0)
+			(at 266.7 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29462,7 +30183,7 @@
 			)
 		)
 		(property "Shipping" ""
-			(at 323.85 129.54 0)
+			(at 266.7 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29471,7 +30192,7 @@
 			)
 		)
 		(property "moq" ""
-			(at 323.85 129.54 0)
+			(at 266.7 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29480,7 +30201,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 323.85 129.54 0)
+			(at 266.7 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29912,7 +30633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 129.54 30.48 0)
 			(effects
 				(font
@@ -30176,7 +30897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 129.54 48.26 0)
 			(effects
 				(font
@@ -30298,7 +31019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 76.2 120.65 0)
 			(effects
 				(font
@@ -31077,7 +31798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 93.98 66.04 0)
 			(effects
 				(font
@@ -31341,7 +32062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 254 120.65 0)
 			(effects
 				(font
@@ -31463,7 +32184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 58.42 48.26 0)
 			(effects
 				(font
@@ -31585,7 +32306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 200.66 30.48 0)
 			(effects
 				(font
@@ -31683,7 +32404,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 323.85 137.16 0)
+		(at 266.7 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -31691,7 +32412,7 @@
 		(dnp no)
 		(uuid "a498df86-5840-4004-9ccc-3a334562a140")
 		(property "Reference" "H6"
-			(at 326.39 137.414 0)
+			(at 269.24 222.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31700,7 +32421,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 326.39 138.4299 0)
+			(at 269.24 223.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31710,7 +32431,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 323.85 137.16 0)
+			(at 266.7 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31719,7 +32440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 323.85 137.16 0)
+			(at 266.7 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31728,7 +32449,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 323.85 137.16 0)
+			(at 266.7 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31737,7 +32458,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 323.85 137.16 0)
+			(at 266.7 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31746,7 +32467,7 @@
 			)
 		)
 		(property "Shipping" ""
-			(at 323.85 137.16 0)
+			(at 266.7 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31755,7 +32476,7 @@
 			)
 		)
 		(property "moq" ""
-			(at 323.85 137.16 0)
+			(at 266.7 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31764,7 +32485,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 323.85 137.16 0)
+			(at 266.7 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31949,7 +32670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 218.44 66.04 0)
 			(effects
 				(font
@@ -32071,7 +32792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 147.32 66.04 0)
 			(effects
 				(font
@@ -32274,7 +32995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 147.32 85.09 0)
 			(effects
 				(font
@@ -32396,7 +33117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 76.2 85.09 0)
 			(effects
 				(font
@@ -33157,7 +33878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_2.25u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_2.25u"
 			(at 254 85.09 0)
 			(effects
 				(font
@@ -33279,7 +34000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 289.56 85.09 0)
 			(effects
 				(font
@@ -33591,7 +34312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 236.22 66.04 0)
 			(effects
 				(font
@@ -33831,7 +34552,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 312.42 129.54 0)
+		(at 256.54 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -33839,7 +34560,7 @@
 		(dnp no)
 		(uuid "c1739abd-d9dd-401b-aead-da8486575b39")
 		(property "Reference" "H3"
-			(at 314.96 129.794 0)
+			(at 259.08 216.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33848,7 +34569,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 314.96 130.8099 0)
+			(at 259.08 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33858,7 +34579,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 312.42 129.54 0)
+			(at 256.54 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33867,7 +34588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 312.42 129.54 0)
+			(at 256.54 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33876,7 +34597,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 312.42 129.54 0)
+			(at 256.54 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33885,7 +34606,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 312.42 129.54 0)
+			(at 256.54 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33894,7 +34615,7 @@
 			)
 		)
 		(property "Shipping" ""
-			(at 312.42 129.54 0)
+			(at 256.54 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33903,7 +34624,7 @@
 			)
 		)
 		(property "moq" ""
-			(at 312.42 129.54 0)
+			(at 256.54 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33912,7 +34633,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 312.42 129.54 0)
+			(at 256.54 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34283,7 +35004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 218.44 30.48 0)
 			(effects
 				(font
@@ -34405,7 +35126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 76.2 48.26 0)
 			(effects
 				(font
@@ -34792,7 +35513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 218.44 102.87 0)
 			(effects
 				(font
@@ -35263,7 +35984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 271.78 120.65 0)
 			(effects
 				(font
@@ -36436,7 +37157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -36681,7 +37402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 111.76 30.48 0)
 			(effects
 				(font
@@ -37104,7 +37825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 93.98 120.65 0)
 			(effects
 				(font
@@ -37491,7 +38212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 76.2 102.87 0)
 			(effects
 				(font
@@ -37612,7 +38333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 182.88 30.48 0)
 			(effects
 				(font
@@ -37851,6 +38572,127 @@
 		)
 	)
 	(symbol
+		(lib_id "SSD1306-128x64_OLED:SSD1306")
+		(at 205.74 248.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3ee5838-5b15-46cf-8dfc-2855a8156c8f")
+		(property "Reference" "Brd1"
+			(at 213.36 247.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SH1106"
+			(at 213.36 250.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Footprints:OLED-TH_L38.0-W12.0_HS91L02W2C01"
+			(at 199.39 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.aliexpress.com/item/1005009242613187.html"
+			(at 205.74 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shipping" "$0.99"
+			(at 205.74 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price ($)" "1.89"
+			(at 205.74 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "moq" ""
+			(at 205.74 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "OLED Screen"
+			(at 205.74 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0465b841-679d-43de-88b1-4884bc34e6e2")
+		)
+		(pin "2"
+			(uuid "e42163cf-562a-4f99-aef6-4f3ae269bd63")
+		)
+		(pin "1"
+			(uuid "a0d0e314-27b5-4603-8c6a-6b21d9035c93")
+		)
+		(pin "3"
+			(uuid "430c79e1-eb3a-4bd4-9aa8-155b98a63be4")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767"
+					(reference "Brd1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 256.54 0)
 		(unit 1)
@@ -37941,7 +38783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 200.66 48.26 0)
 			(effects
 				(font
@@ -38347,7 +39189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 236.22 102.87 0)
 			(effects
 				(font
@@ -38469,7 +39311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 165.1 102.87 0)
 			(effects
 				(font
@@ -38591,7 +39433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 111.76 102.87 0)
 			(effects
 				(font
@@ -38713,7 +39555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 182.88 48.26 0)
 			(effects
 				(font
@@ -38835,7 +39677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 165.1 48.26 0)
 			(effects
 				(font
@@ -38957,7 +39799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 218.44 85.09 0)
 			(effects
 				(font
@@ -39048,6 +39890,72 @@
 			(project "Keyboard"
 				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767"
 					(reference "SW55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 290.83 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeaf7fbf-5d6c-4eff-882e-da4b79338199")
+		(property "Reference" "#FLG06"
+			(at 290.83 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 290.83 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 290.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 290.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baece3a0-417c-4991-ad4d-84068745c40b")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -39221,7 +40129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1.5u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1.5u"
 			(at 41.91 66.04 0)
 			(effects
 				(font
@@ -39485,7 +40393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -39865,6 +40773,72 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
+		(at 288.29 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9f77456-b258-428c-a63f-fa0f5ff506a2")
+		(property "Reference" "#FLG05"
+			(at 288.29 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 288.29 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 288.29 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93b912a3-733e-4f5e-821a-637807a63c82")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/e1d0460a-26b5-4c80-87de-a4ebc6ef7767"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
 		(at 35.56 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39954,7 +40928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -40360,7 +41334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 218.44 120.65 0)
 			(effects
 				(font
@@ -40759,7 +41733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V2_1u"
+		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
 			(at 76.2 66.04 0)
 			(effects
 				(font
