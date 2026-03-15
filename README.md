@@ -76,4 +76,4 @@ Available in the `Firmware` folder. (Basic version for now. I'll update it once 
 > *T for total price
 > 
 <h2>Keyboard Case</h2>
-<p>To be built after the arrival of the keyboard.</p>
+<p>Very basic case for the numpad module provided in the `CAD` folder.</p>
