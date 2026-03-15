@@ -12087,7 +12087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 236.22 48.26 0)
 			(effects
 				(font
@@ -12209,7 +12209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Footprints:Pogopin_Conn_1x4_Male"
 			(at 156.21 274.32 0)
 			(effects
 				(font
@@ -12283,7 +12283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 200.66 66.04 0)
 			(effects
 				(font
@@ -12405,7 +12405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 182.88 66.04 0)
 			(effects
 				(font
@@ -13440,7 +13440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_6u"
+		(property "Footprint" "Footprints:MX_HS_6u"
 			(at 147.32 120.65 0)
 			(effects
 				(font
@@ -14149,7 +14149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 182.88 85.09 0)
 			(effects
 				(font
@@ -14685,7 +14685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 271.78 102.87 0)
 			(effects
 				(font
@@ -14807,7 +14807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 289.56 48.26 0)
 			(effects
 				(font
@@ -14995,7 +14995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 236.22 85.09 0)
 			(effects
 				(font
@@ -15645,7 +15645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 182.88 102.87 0)
 			(effects
 				(font
@@ -16152,7 +16152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 289.56 66.04 0)
 			(effects
 				(font
@@ -16416,7 +16416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 254 48.26 0)
 			(effects
 				(font
@@ -16538,7 +16538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 200.66 120.65 0)
 			(effects
 				(font
@@ -17179,7 +17179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 93.98 85.09 0)
 			(effects
 				(font
@@ -17301,7 +17301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 147.32 102.87 0)
 			(effects
 				(font
@@ -17423,7 +17423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 289.56 120.65 0)
 			(effects
 				(font
@@ -17545,7 +17545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 165.1 66.04 0)
 			(effects
 				(font
@@ -17809,7 +17809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 93.98 48.26 0)
 			(effects
 				(font
@@ -18139,7 +18139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 93.98 30.48 0)
 			(effects
 				(font
@@ -18384,7 +18384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 58.42 120.65 0)
 			(effects
 				(font
@@ -18790,7 +18790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 111.76 85.09 0)
 			(effects
 				(font
@@ -19396,7 +19396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 41.91 30.48 0)
 			(effects
 				(font
@@ -19618,7 +19618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1.75u"
+		(property "Footprint" "Footprints:MX_HS_1.75u"
 			(at 254 102.87 0)
 			(effects
 				(font
@@ -20024,7 +20024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 236.22 30.48 0)
 			(effects
 				(font
@@ -20355,7 +20355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1.75u"
+		(property "Footprint" "Footprints:MX_HS_1.75u"
 			(at 41.91 85.09 0)
 			(effects
 				(font
@@ -21476,7 +21476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1.5u"
+		(property "Footprint" "Footprints:MX_HS_1.5u"
 			(at 271.78 66.04 0)
 			(effects
 				(font
@@ -21598,7 +21598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 254 66.04 0)
 			(effects
 				(font
@@ -21720,7 +21720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 165.1 85.09 0)
 			(effects
 				(font
@@ -21842,7 +21842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 271.78 30.48 0)
 			(effects
 				(font
@@ -22064,7 +22064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 93.98 102.87 0)
 			(effects
 				(font
@@ -22186,7 +22186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -22429,7 +22429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 254 30.48 0)
 			(effects
 				(font
@@ -23281,7 +23281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 111.76 66.04 0)
 			(effects
 				(font
@@ -24138,7 +24138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 200.66 85.09 0)
 			(effects
 				(font
@@ -24382,7 +24382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 147.32 48.26 0)
 			(effects
 				(font
@@ -24646,7 +24646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 58.42 85.09 0)
 			(effects
 				(font
@@ -24768,7 +24768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 165.1 30.48 0)
 			(effects
 				(font
@@ -24890,7 +24890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 218.44 48.26 0)
 			(effects
 				(font
@@ -25612,7 +25612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 289.56 30.48 0)
 			(effects
 				(font
@@ -25734,7 +25734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 41.91 48.26 0)
 			(effects
 				(font
@@ -26465,7 +26465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 147.32 30.48 0)
 			(effects
 				(font
@@ -26653,7 +26653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 58.42 66.04 0)
 			(effects
 				(font
@@ -27835,7 +27835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 200.66 102.87 0)
 			(effects
 				(font
@@ -28022,7 +28022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_2.25u"
+		(property "Footprint" "Footprints:MX_HS_2.25u"
 			(at 41.91 102.87 0)
 			(effects
 				(font
@@ -29459,7 +29459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -29646,7 +29646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 111.76 48.26 0)
 			(effects
 				(font
@@ -29768,7 +29768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 76.2 30.48 0)
 			(effects
 				(font
@@ -30022,7 +30022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_2u"
+		(property "Footprint" "Footprints:MX_HS_2u"
 			(at 271.78 48.26 0)
 			(effects
 				(font
@@ -30633,7 +30633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 129.54 30.48 0)
 			(effects
 				(font
@@ -30897,7 +30897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 129.54 48.26 0)
 			(effects
 				(font
@@ -31019,7 +31019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 76.2 120.65 0)
 			(effects
 				(font
@@ -31141,7 +31141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Footprints:Pogopin_Conn_1x4_Female"
 			(at 132.08 274.32 0)
 			(effects
 				(font
@@ -31724,7 +31724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Footprints:Pogopin_Conn_1x4_Male"
 			(at 201.93 274.32 0)
 			(effects
 				(font
@@ -31798,7 +31798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 93.98 66.04 0)
 			(effects
 				(font
@@ -32062,7 +32062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 254 120.65 0)
 			(effects
 				(font
@@ -32184,7 +32184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 58.42 48.26 0)
 			(effects
 				(font
@@ -32306,7 +32306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 200.66 30.48 0)
 			(effects
 				(font
@@ -32670,7 +32670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 218.44 66.04 0)
 			(effects
 				(font
@@ -32792,7 +32792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 147.32 66.04 0)
 			(effects
 				(font
@@ -32995,7 +32995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 147.32 85.09 0)
 			(effects
 				(font
@@ -33117,7 +33117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 76.2 85.09 0)
 			(effects
 				(font
@@ -33878,7 +33878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_2.25u"
+		(property "Footprint" "Footprints:MX_HS_2.25u"
 			(at 254 85.09 0)
 			(effects
 				(font
@@ -34000,7 +34000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 289.56 85.09 0)
 			(effects
 				(font
@@ -34312,7 +34312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 236.22 66.04 0)
 			(effects
 				(font
@@ -35004,7 +35004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 218.44 30.48 0)
 			(effects
 				(font
@@ -35126,7 +35126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 76.2 48.26 0)
 			(effects
 				(font
@@ -35513,7 +35513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 218.44 102.87 0)
 			(effects
 				(font
@@ -35984,7 +35984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 271.78 120.65 0)
 			(effects
 				(font
@@ -37157,7 +37157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -37402,7 +37402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 111.76 30.48 0)
 			(effects
 				(font
@@ -37825,7 +37825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 93.98 120.65 0)
 			(effects
 				(font
@@ -38212,7 +38212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 76.2 102.87 0)
 			(effects
 				(font
@@ -38333,7 +38333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 182.88 30.48 0)
 			(effects
 				(font
@@ -38783,7 +38783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 200.66 48.26 0)
 			(effects
 				(font
@@ -39189,7 +39189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 236.22 102.87 0)
 			(effects
 				(font
@@ -39311,7 +39311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 165.1 102.87 0)
 			(effects
 				(font
@@ -39433,7 +39433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 111.76 102.87 0)
 			(effects
 				(font
@@ -39555,7 +39555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 182.88 48.26 0)
 			(effects
 				(font
@@ -39677,7 +39677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 165.1 48.26 0)
 			(effects
 				(font
@@ -39799,7 +39799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 218.44 85.09 0)
 			(effects
 				(font
@@ -40129,7 +40129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1.5u"
+		(property "Footprint" "Footprints:MX_HS_1.5u"
 			(at 41.91 66.04 0)
 			(effects
 				(font
@@ -40393,7 +40393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -40581,7 +40581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Footprints:Pogopin_Conn_1x4_Female"
 			(at 179.07 274.32 0)
 			(effects
 				(font
@@ -40928,7 +40928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -41334,7 +41334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 218.44 120.65 0)
 			(effects
 				(font
@@ -41733,7 +41733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 76.2 66.04 0)
 			(effects
 				(font

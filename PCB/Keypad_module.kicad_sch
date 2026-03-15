@@ -1833,6 +1833,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:ESDA5V3L"
 			(pin_names
 				(hide yes)
@@ -3456,6 +3539,26 @@
 			(justify left top)
 		)
 		(uuid "a69ec3e8-76b8-46f5-88eb-48264ec228e2")
+	)
+	(text_box "Holes"
+		(exclude_from_sim no)
+		(at 254 82.55 0)
+		(size 21.59 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a8535794-c6a3-44a7-b33d-6a42df1ce141")
 	)
 	(text_box "Battery Sense\n"
 		(exclude_from_sim no)
@@ -7377,7 +7480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Footprints:Pogopin_Conn_1x4_Female"
 			(at 191.77 121.92 0)
 			(effects
 				(font
@@ -7723,7 +7826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_2u_90deg"
+		(property "Footprint" "Footprints:MX_HS_2u_90deg"
 			(at 93.98 45.72 0)
 			(effects
 				(font
@@ -7962,6 +8065,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 266.7 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f1e63e6-2873-464a-9b44-28a085a1183b")
+		(property "Reference" "H15"
+			(at 269.24 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 269.24 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 266.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 266.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 266.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shipping" ""
+			(at 266.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "moq" ""
+			(at 266.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 266.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard"
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/ce80b2d0-ef32-496a-831b-baf9fb5d3f1d"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 88.9 0)
 		(unit 1)
@@ -8052,7 +8255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 38.1 83.82 0)
 			(effects
 				(font
@@ -8523,7 +8726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 55.88 26.67 0)
 			(effects
 				(font
@@ -9117,7 +9320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 55.88 83.82 0)
 			(effects
 				(font
@@ -9313,7 +9516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 55.88 45.72 0)
 			(effects
 				(font
@@ -9435,7 +9638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 38.1 45.72 0)
 			(effects
 				(font
@@ -9885,7 +10088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 55.88 64.77 0)
 			(effects
 				(font
@@ -10077,6 +10280,106 @@
 			(project "Keyboard"
 				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/ce80b2d0-ef32-496a-831b-baf9fb5d3f1d"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 266.7 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b5ed5fe-7f6e-4197-b021-4280543dfa61")
+		(property "Reference" "H13"
+			(at 269.24 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 269.24 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 266.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 266.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 266.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shipping" ""
+			(at 266.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "moq" ""
+			(at 266.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 266.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard"
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/ce80b2d0-ef32-496a-831b-baf9fb5d3f1d"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -10731,7 +11034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_2u"
+		(property "Footprint" "Footprints:MX_HS_2u"
 			(at 38.1 104.14 0)
 			(effects
 				(font
@@ -10964,6 +11267,106 @@
 			(project "Keyboard"
 				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/ce80b2d0-ef32-496a-831b-baf9fb5d3f1d"
 					(reference "D88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f02399f-6ae8-41b6-bbc6-fc8d3fa4a440")
+		(property "Reference" "H14"
+			(at 260.35 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shipping" ""
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "moq" ""
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 257.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard"
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/ce80b2d0-ef32-496a-831b-baf9fb5d3f1d"
+					(reference "H14")
 					(unit 1)
 				)
 			)
@@ -12541,7 +12944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 74.93 45.72 0)
 			(effects
 				(font
@@ -13029,7 +13432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 74.93 104.14 0)
 			(effects
 				(font
@@ -13151,7 +13554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Footprints:Pogopin_Conn_1x4_Female"
 			(at 191.77 88.9 0)
 			(effects
 				(font
@@ -13200,6 +13603,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 257.81 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "aff15358-7d60-4fa0-9879-be86435ed990")
+		(property "Reference" "H12"
+			(at 260.35 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 260.35 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shipping" ""
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "moq" ""
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Keyboard"
+				(path "/fa4d5580-8795-4b64-903a-bec98e134c5c/ce80b2d0-ef32-496a-831b-baf9fb5d3f1d"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 74.93 69.85 0)
 		(unit 1)
@@ -13225,7 +13728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 74.93 64.77 0)
 			(effects
 				(font
@@ -13421,7 +13924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 74.93 83.82 0)
 			(effects
 				(font
@@ -14049,7 +14552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 74.93 26.67 0)
 			(effects
 				(font
@@ -14171,7 +14674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 38.1 64.77 0)
 			(effects
 				(font
@@ -14576,7 +15079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Footprints:Pogopin_Conn_1x4_Male"
 			(at 191.77 138.43 0)
 			(effects
 				(font
@@ -14792,7 +15295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Footprints:Pogopin_Conn_1x4_Male"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -14866,7 +15369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_2u_90deg"
+		(property "Footprint" "Footprints:MX_HS_2u_90deg"
 			(at 93.98 83.82 0)
 			(effects
 				(font
@@ -15411,7 +15914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 93.98 26.67 0)
 			(effects
 				(font
@@ -15533,7 +16036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:Kailh_choc_HS_V1V2_1u"
+		(property "Footprint" "Footprints:MX_HS_1u"
 			(at 38.1 26.67 0)
 			(effects
 				(font

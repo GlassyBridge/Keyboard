@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 5.05,
-          "height": 5.05,
-          "width": 5.05
+          "drill": 1.0,
+          "height": 1.508,
+          "width": 1.508
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -84,8 +84,8 @@
           "Footprint"
         ],
         [
-          "unconnected_items|312500000|112000000|1d9d1806-0b13-4628-856a-c6d23eb2443b|2e8ae74b-6608-4171-b853-9c6033a9b20c",
-          "Different Islands"
+          "unconnected_items|325250000|112000000|380a1824-3c0e-4a8b-85c9-7b07302dc10f|efe2e13f-ef34-412e-b4b3-6a1022e61da1",
+          "Different islands"
         ]
       ],
       "meta": {
@@ -131,7 +131,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "ignore",
@@ -558,7 +558,7 @@
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../KB2-PCB.step",
+      "step": "../../../Keypad.step",
       "svg": "",
       "vrml": ""
     },
