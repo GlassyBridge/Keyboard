@@ -1,9 +1,8 @@
 <h1 align="center"> Wireless-Modular Keyboard </h1>
 <div align="center">
-  <img width="1438" height="698" alt="image" src="https://github.com/user-attachments/assets/40c99bcb-62f8-4ee1-8c98-b929638e3683" />
-  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/899bfbe3-7878-422d-912f-0f8483b30df9" />
+  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/d57b7f7e-3add-4d3c-9f40-f51e95c1a49f" />
 </div>
-<p align="center">A custom modular keyboard that has both wireless and wired capabilities, uses low profile, kailh choc (V1) hotswap switches (with per key RGB lighting) and a magnetic pogo pin connection which follows the I2C protocol.</p>
+<p align="center">A custom modular keyboard that has both wireless and wired capabilities, uses MX hotswap switches (with per key RGB lighting) and a magnetic pogo pin connection which follows the I2C protocol.</p>
 <h2></h2>
 <h2> Features </h2>
 
