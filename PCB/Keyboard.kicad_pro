@@ -558,7 +558,7 @@
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../Keypad.step",
+      "step": "../../../Keyboard.step",
       "svg": "",
       "vrml": ""
     },
