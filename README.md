@@ -1,5 +1,6 @@
 <h1 align="center"> Wireless-Modular Keyboard </h1>
 <div align="center">
+  <img width="1438" height="698" alt="image" src="https://github.com/user-attachments/assets/40c99bcb-62f8-4ee1-8c98-b929638e3683" />
   <img width="80%" alt="image" src="https://github.com/user-attachments/assets/899bfbe3-7878-422d-912f-0f8483b30df9" />
 </div>
 <p align="center">A custom modular keyboard that has both wireless and wired capabilities, uses low profile, kailh choc (V1) hotswap switches (with per key RGB lighting) and a magnetic pogo pin connection which follows the I2C protocol.</p>
@@ -20,18 +21,17 @@
 <img width="49%" alt="Keypad_Module_Schematic" src="https://github.com/user-attachments/assets/9988d776-ba61-45ed-a6f6-ed06badc78c9" />
 <h4 align="center">Main board & Keypad</h4>
 <h3>PCB</h3>
-
-<img width="100%" alt="Back PCB" src="https://github.com/user-attachments/assets/55b1fee9-7597-4d9e-af33-77cebefeb30b" />
+<img width="100%" alt="Back PCB" src="https://github.com/user-attachments/assets/cbfe85f1-cb7f-49a8-94bf-5b7986f6b4df" />
 <h4 align="center">PCB back</h4>
-<img width="100%" alt="Front PCB" src="https://github.com/user-attachments/assets/88aabfbb-ed75-4faf-a7ea-ca7eb0322ed6" />
+<img width="100%" alt="Front PCB" src="https://github.com/user-attachments/assets/1025c5e5-272c-4dad-88c7-d39d3891780f" />
 <h4 align="center">PCB front</h4>
-<img width="100%" alt="PCB" src="https://github.com/user-attachments/assets/22763bfc-8c2f-43b3-9449-3f1ad378f946" />
+<img width="100%" alt="PCB" src="https://github.com/user-attachments/assets/8e6a50c4-5f36-48c2-8e3a-505326f94985" />
 <h4 align="center">PCB</h4>
-<img width="100%" alt="No-Components 3D View front" src="https://github.com/user-attachments/assets/b9dfe797-e4f7-4ee3-a5c0-865f6ab02bc6" />
-<img width="100%" alt="No-Components 3D View back" src="https://github.com/user-attachments/assets/56916c5d-ac22-474d-a6f6-55af1f2dd1df" />
+<img width="100%" alt="No-Components 3D View front" src="https://github.com/user-attachments/assets/6a199f89-a3b4-4a0d-b39f-cf482c37a095" />
+<img width="100%" alt="No-Components 3D View back" src="https://github.com/user-attachments/assets/267f41db-41f7-4835-a930-d3e896748e78" />
 <h4 align="center">PCB 3D model</h4>
-<img width="100%" alt="3D view front" src="https://github.com/user-attachments/assets/6fada7fb-e3c4-430e-a5cc-95d9550f9528"/>
-<img width="100%" alt="3D view back" src="https://github.com/user-attachments/assets/178e047a-2d77-4ffa-99f2-d338258371ae"/>
+<img width="100%" alt="3D view front" src="https://github.com/user-attachments/assets/c0105391-5848-4349-84f0-9c8bddb8ab07"/>
+<img width="100%" alt="3D view back" src="https://github.com/user-attachments/assets/c5e5cc9f-e2c7-4141-980e-54427c0cc2eb"/>
 <h4 align="center">PCB 3D model with components</h4>
 
 <h2>Firmware</h2>
@@ -77,3 +77,5 @@ Available in the `Firmware` folder. (Basic version for now. I'll update it once 
 > 
 <h2>Keyboard Case</h2>
 <p>Very basic case for the numpad module provided in the `CAD` folder.</p>
+<img width="524" height="488" alt="image" src="https://github.com/user-attachments/assets/ecfad8de-810f-47c9-a201-888cf642605d" />
+
