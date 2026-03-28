@@ -16,8 +16,8 @@
 
 <h2>Design</h2>
 <h3>Schematic</h3>
-<img width="49%" alt="Main_Board_Schematic" src="https://github.com/user-attachments/assets/00c6ecfa-7811-464e-bdc8-09416fe01dce" />
-<img width="49%" alt="Keypad_Module_Schematic" src="https://github.com/user-attachments/assets/9988d776-ba61-45ed-a6f6-ed06badc78c9" />
+<img width="49%" alt="Main_Board_Schematic" src="https://github.com/user-attachments/assets/85a9a515-3020-464d-8725-8060c9dc251d" />
+<img width="49%" alt="Keypad_Module_Schematic" src="https://github.com/user-attachments/assets/9ba47d6a-d990-400c-a9e0-5136f25dfe45" />
 <h4 align="center">Main board & Keypad</h4>
 <h3>PCB</h3>
 <img width="100%" alt="Back PCB" src="https://github.com/user-attachments/assets/cbfe85f1-cb7f-49a8-94bf-5b7986f6b4df" />
