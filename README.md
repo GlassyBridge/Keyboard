@@ -88,5 +88,6 @@ Available in the `Firmware` folder. (Basic version for now. I'll update it once 
 
 A very basic case is provided in the `CAD` folder.
 
-<img width="524" height="488" alt="image" src="https://github.com/user-attachments/assets/ecfad8de-810f-47c9-a201-888cf642605d" />
+
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/dcbb5de1-e0c6-4394-a4bc-7c58d07d5797" />
 
