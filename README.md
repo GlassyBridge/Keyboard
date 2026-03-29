@@ -1,9 +1,8 @@
 <h1 align="center"> Wireless-Modular Keyboard </h1>
 <div align="center">
-  <img width="1438" height="698" alt="image" src="https://github.com/user-attachments/assets/40c99bcb-62f8-4ee1-8c98-b929638e3683" />
-  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/899bfbe3-7878-422d-912f-0f8483b30df9" />
+  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/d57b7f7e-3add-4d3c-9f40-f51e95c1a49f" />
 </div>
-<p align="center">A custom modular keyboard that has both wireless and wired capabilities, uses low profile, kailh choc (V1) hotswap switches (with per key RGB lighting) and a magnetic pogo pin connection which follows the I2C protocol.</p>
+<p align="center">A custom modular keyboard that has both wireless and wired capabilities, uses MX hotswap switches (with per key RGB lighting) and a magnetic pogo pin connection which follows the I2C protocol.</p>
 <h2></h2>
 <h2> Features </h2>
 
@@ -17,8 +16,8 @@
 
 <h2>Design</h2>
 <h3>Schematic</h3>
-<img width="49%" alt="Main_Board_Schematic" src="https://github.com/user-attachments/assets/00c6ecfa-7811-464e-bdc8-09416fe01dce" />
-<img width="49%" alt="Keypad_Module_Schematic" src="https://github.com/user-attachments/assets/9988d776-ba61-45ed-a6f6-ed06badc78c9" />
+<img width="49%" alt="Main_Board_Schematic" src="https://github.com/user-attachments/assets/85a9a515-3020-464d-8725-8060c9dc251d" />
+<img width="49%" alt="Keypad_Module_Schematic" src="https://github.com/user-attachments/assets/9ba47d6a-d990-400c-a9e0-5136f25dfe45" />
 <h4 align="center">Main board & Keypad</h4>
 <h3>PCB</h3>
 <img width="100%" alt="Back PCB" src="https://github.com/user-attachments/assets/cbfe85f1-cb7f-49a8-94bf-5b7986f6b4df" />
