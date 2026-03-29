@@ -86,7 +86,7 @@ Available in the `Firmware` folder. (Basic version for now. I'll update it once 
 
 <h2>Keyboard Case</h2>
 
-A very basic case for the numpad module provided in the `CAD` folder.
+A very basic case is provided in the `CAD` folder.
 
 <img width="524" height="488" alt="image" src="https://github.com/user-attachments/assets/ecfad8de-810f-47c9-a201-888cf642605d" />
 
