@@ -9,8 +9,8 @@
 - Works over USB-C (wired) or Bluetooth (wireless)
 - Integrated magnetic pogo pins for stable I2C connection and adding external modules (numberpads, macropads or OLED modules)
 - Integrated charging circuit for portability and wireless operation
-- Uses Kailh Low Profile Choc hotswap sockets for key switch connections
-- Features SK6805 addressable LEDs for customizable per key RGB lighting
+- Uses MX hotswap sockets for key switch connections
+- Features SK6812MINI-E back mounted LEDs for customizable per key RGB lighting
 - Includes a dedicated SWD interface for debugging and development
 - A dedicated slide switch to manage battery life
 
@@ -94,5 +94,6 @@ Available in the `Firmware` folder. (Basic version for now. I'll update it once 
 
 A very basic case is provided in the `CAD` folder.
 
-<img width="524" height="488" alt="image" src="https://github.com/user-attachments/assets/ecfad8de-810f-47c9-a201-888cf642605d" />
+
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/dcbb5de1-e0c6-4394-a4bc-7c58d07d5797" />
 
