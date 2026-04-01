@@ -38,51 +38,57 @@
 Available in the `Firmware` folder. (Basic version for now. I'll update it once I built the keyboard)
 <h2>Bill of Materials</h2>
 
-| Name                     | Reference   |    Qty     | moq | Price ($) | Shipping |                                            Link                                             |
-| ------------------------ | ----------- | :--------: | --- | --------- | -------- | :-----------------------------------------------------------------------------------------: |
-| OLED Screens (128X32)    | Brd11       |     1      | 1   | 1.54      | -        |             [Aliexpress](https://www.aliexpress.com/item/1005006913366977.html)             |
-| ------------ (128X64)    | Brd12       |     1      | 1   | 2.94      | -        |             [Aliexpress](https://www.aliexpress.com/item/1005009242613187.html)             |
-| Capacitors (10uF)        | C1-C4       |     4      | 20  | 0.43      | LCSC     |                  [C15850](https://www.lcsc.com/product-detail/C15850.html)                  |
-| ---------- (4.7uF)       | C5,C6       |     2      | 20  | 0.29      | LCSC     |                   [C1779](https://www.lcsc.com/product-detail/C1779.html)                   |
-| ---------- (22uF)        | C7,C8       |     2      | 20  | 1.12      | LCSC     |                  [C12891](https://www.lcsc.com/product-detail/C12891.html)                  |
-| 1X6 Magnetic Pogo Pins   | Conn1-Conn8 | 8(4 pairs) | 1   | 1.82      | -        |             [Aliexpress](https://www.aliexpress.com/item/1005007636554292.html)             |
-| Diodes                   | D1-D99      |     99     | 100 | 0.93      | LCSC     |                   [C2099](https://www.lcsc.com/product-detail/C2099.html)                   |
-| ---------- (SS34)        | SS34        |     1      | 20  | 0.56      | LCSC     |                 [C908680](https://www.lcsc.com/product-detail/C908680.html)                 |
-| ESDA5V3L                 | ESD1,ESD2   |     2      | 10  | 0.39      | LCSC     |                 [C587142](https://www.lcsc.com/product-detail/C587142.html)                 |
-| USB Connector            | J1          |     1      | 5   | 0.84      | LCSC     |                 [C165948](https://www.lcsc.com/product-detail/C165948.html)                 |
-| 2x3 1mm PinHeader        | J2          |     1      | 20  | 0.65      | LCSC     |                [C6837603](https://www.lcsc.com/product-detail/C6837603.html)                |
-| Inductors  (10uH)        | L1          |     1      | 10  | 0.47      | LCSC     |                  [C88173](https://www.lcsc.com/product-detail/C88173.html)                  |
-| ---------- (22uH)        | L2          |     1      | 5   | 0.83      | LCSC     |                  [C27442](https://www.lcsc.com/product-detail/C27442.html)                  |
-| SK6812MINI-E (LEDs)      | LED1-LED99  |     99     | 100 | 7.45      | LCSC     |                [C5149201](https://www.lcsc.com/product-detail/C5149201.html)                |
-| P_Mosfets                | Q1-Q3       |     3      | 10  | 0.65      | LCSC     |                  [C10487](https://www.lcsc.com/product-detail/C10487.html)                  |
-| Resistors  (110K)        | R1          |     2      | 100 | 0.19      | LCSC     |                [C2907221](https://www.lcsc.com/product-detail/C2907221.html)                |
-| ---------- (5K1)         | R2,R4       |     2      | 100 | 0.24      | LCSC     |                  [C27834](https://www.lcsc.com/product-detail/C27834.html)                  |
-| ---------- (100K)        | R3,R5,R6    |     2      | 100 | 0.22      | LCSC     |                [C2933502](https://www.lcsc.com/product-detail/C2933502.html)                |
-| ---------- (4K7)         | R7,R12,R18  |     4      | 100 | 0.19      | LCSC     |                  [C17673](https://www.lcsc.com/product-detail/C17673.html)                  |
-| ---------- (27R)         | R8,R11      |     2      | 100 | 0.22      | LCSC     |                  [C17594](https://www.lcsc.com/product-detail/C17594.html)                  |
-| ---------- (806K)        | R9,R16,R21  |     3      | 100 | 0.22      | LCSC     |                [C2933502](https://www.lcsc.com/product-detail/C2933502.html)                |
-| ---------- (2M)          | R10,R17,R22 |     3      | 100 | 0.30      | LCSC     |                  [C26112](https://www.lcsc.com/product-detail/C26112.html)                  |
-| ---------- (15K)         | R13         |     1      | 100 | 0.21      | LCSC     |                [C2930170](https://www.lcsc.com/product-detail/C2930170.html)                |
-| ---------- (10K)         | R14,R19     |     2      | 100 | 0.25      | LCSC     |                  [C17414](https://www.lcsc.com/product-detail/C17414.html)                  |
-| ---------- (2K)          | R15         |     1      | 100 | 0.25      | LCSC     |                  [C17604](https://www.lcsc.com/product-detail/C17604.html)                  |
-| ======================   | =========== | ========== | === | =======   | =======  |                                              =                                              |
-| Rotary Encoder           | RE1         |     1      | 1   | 1.87      | LCSC     |                 [C470742](https://www.lcsc.com/product-detail/C470742.html)                 |
-| Slide switch (1825232-1) | SPDT1       |     1      | 1   | 0.93      | LCSC     |                [C5167252](https://www.lcsc.com/product-detail/C5167252.html)                |
-| Keys ----- (Sockets)     | SW1-SW99    |     99     | 100 | 12.14     | -        |             [Aliexpress](https://www.aliexpress.com/item/1005005337309516.html)             |
-| ---------- (Switches)    | -           |     99     | 110 | 50.78 (T) | LCSC     |             [Aliexpress](https://www.aliexpress.com/item/1005008883418065.html)             |
-| ---------- (Key Caps)    | -           |     99     | 1   | 39.70 (T) | -        |   [Chocfox](https://chosfox.com/products/chocfox-cfx-choc-keycaps?variant=42171505377474)   |
-| ---------- (Stabilizers) | -           |     5      | 1   | 12.11 (T) | LCSC     |               [Aliexpress](https://www.aliexpress.com/item/33039182740.html)                |
-| ======================   | =========== | ========== | === | =======   | =======  |                                              =                                              |
-| MT3608                   | U1          |     1      | 10  | 0.79      | LCSC     |                  [C84817](https://www.lcsc.com/product-detail/C84817.html)                  |
-| USB6B1                   | U2          |     1      | 1   | 0.47      | LCSC     |                 [C283483](https://www.lcsc.com/product-detail/C283483.html)                 |
-| MDBT50Q-1MV2 (MCU)       | U3          |     1      | 1   | 10.10     | SEED     | [Seed Studio](https://www.seeedstudio.com/MDBT50Q-1M-nRF52840-Based-BLE-Module-p-3147.html) |
-| MCP73831T-2ACI/OT        | U4          |     1      | 1   | 0.74      | LCSC     |                 [C424093](https://www.lcsc.com/product-detail/C424093.html)                 |
-| XIAO-nRF52840-SMD (MCU)  | U5          |     1      | 1   | 9.90      | 3.75     |       [Seed Studio](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)        |
-| MCP23017                 | U6          |     1      | 1   | 2.03      | LCSC     |                 [C639770](https://www.lcsc.com/product-detail/C639770.html)                 |
-| 74LV1T08GV               | U7,U8       |     2      | 1   | 2.12      | LCSC     |                 [C547934](https://www.lcsc.com/product-detail/C547934.html)                 |
-| lithium batteries        | -           |     2      | -   | $9.03 (T) | $5.43    |             [Aliexpress](https://www.aliexpress.com/item/1005010682559019.html)             |
+| Name                     | Reference   |    Qty     | moq | Price ($) | Shipping   |                                            Link                                             |
+| ------------------------ | ----------- | :--------: | --- | --------- | ---------- | :-----------------------------------------------------------------------------------------: |
+| OLED Screens (128X32)    | Brd11       |     1      | 1   | 2.42      | Aliexpress |             [Aliexpress](https://www.aliexpress.us/item/3256806165075447.html)              |
+| ------------ (128X64)    | Brd12       |     1      | 1   | 4.18      | Aliexpress |             [Aliexpress](https://www.aliexpress.us/item/3256810159598938.html)              |
+| 1X6 Magnetic Pogo Pins   | Conn1-Conn8 | 8(4 pairs) | 5p  | 25.25     | Aliexpress |             [Aliexpress](https://www.aliexpress.us/item/3256805098127227.html)              |
+| Capacitors (10uF)        | C1-C4       |     4      | 20  | 0.43      | LCSC       |                  [C15850](https://www.lcsc.com/product-detail/C15850.html)                  |
+| ---------- (4.7uF)       | C5,C6       |     2      | 20  | 0.29      | LCSC       |                   [C1779](https://www.lcsc.com/product-detail/C1779.html)                   |
+| ---------- (22uF)        | C7,C8       |     2      | 20  | 1.12      | LCSC       |                  [C12891](https://www.lcsc.com/product-detail/C12891.html)                  |
+| Diodes                   | D1-D99      |     99     | 100 | 0.93      | LCSC       |                   [C2099](https://www.lcsc.com/product-detail/C2099.html)                   |
+| ---------- (SS34)        | SS34        |     1      | 20  | 0.56      | LCSC       |                 [C908680](https://www.lcsc.com/product-detail/C908680.html)                 |
+| ESDA5V3L                 | ESD1,ESD2   |     2      | 10  | 0.39      | LCSC       |                 [C587142](https://www.lcsc.com/product-detail/C587142.html)                 |
+| USB Connector            | J1          |     1      | 5   | 0.84      | LCSC       |                 [C165948](https://www.lcsc.com/product-detail/C165948.html)                 |
+| 2x3 1mm PinHeader        | J2          |     1      | 20  | 0.65      | LCSC       |                [C6837603](https://www.lcsc.com/product-detail/C6837603.html)                |
+| Inductors  (10uH)        | L1          |     1      | 10  | 0.47      | LCSC       |                  [C88173](https://www.lcsc.com/product-detail/C88173.html)                  |
+| ---------- (22uH)        | L2          |     1      | 5   | 0.83      | LCSC       |                  [C27442](https://www.lcsc.com/product-detail/C27442.html)                  |
+| SK6812MINI-E (LEDs)      | LED1-LED99  |     99     | 100 | 7.45      | LCSC       |                [C5149201](https://www.lcsc.com/product-detail/C5149201.html)                |
+| P_Mosfets                | Q1-Q3       |     3      | 10  | 0.65      | LCSC       |                  [C10487](https://www.lcsc.com/product-detail/C10487.html)                  |
+| Resistors  (110K)        | R1          |     2      | 100 | 0.19      | LCSC       |                [C2907221](https://www.lcsc.com/product-detail/C2907221.html)                |
+| ---------- (5K1)         | R2,R4       |     2      | 100 | 0.24      | LCSC       |                  [C27834](https://www.lcsc.com/product-detail/C27834.html)                  |
+| ---------- (100K)        | R3,R5,R6    |     2      | 100 | 0.22      | LCSC       |                [C2933502](https://www.lcsc.com/product-detail/C2933502.html)                |
+| ---------- (4K7)         | R7,R12,R18  |     4      | 100 | 0.19      | LCSC       |                  [C17673](https://www.lcsc.com/product-detail/C17673.html)                  |
+| ---------- (27R)         | R8,R11      |     2      | 100 | 0.22      | LCSC       |                  [C17594](https://www.lcsc.com/product-detail/C17594.html)                  |
+| ---------- (806K)        | R9,R16,R21  |     3      | 100 | 0.22      | LCSC       |                [C2933502](https://www.lcsc.com/product-detail/C2933502.html)                |
+| ---------- (2M)          | R10,R17,R22 |     3      | 100 | 0.30      | LCSC       |                  [C26112](https://www.lcsc.com/product-detail/C26112.html)                  |
+| ---------- (15K)         | R13         |     1      | 100 | 0.21      | LCSC       |                [C2930170](https://www.lcsc.com/product-detail/C2930170.html)                |
+| ---------- (10K)         | R14,R19     |     2      | 100 | 0.25      | LCSC       |                  [C17414](https://www.lcsc.com/product-detail/C17414.html)                  |
+| ---------- (2K)          | R15         |     1      | 100 | 0.25      | LCSC       |                  [C17604](https://www.lcsc.com/product-detail/C17604.html)                  |
+| Rotary Encoder           | RE1         |     1      | 1   | 1.87      | LCSC       |                 [C470742](https://www.lcsc.com/product-detail/C470742.html)                 |
+| Slide switch (1825232-1) | SPDT1       |     1      | 1   | 0.93      | LCSC       |                [C5167252](https://www.lcsc.com/product-detail/C5167252.html)                |
+| MT3608                   | U1          |     1      | 10  | 0.79      | LCSC       |                  [C84817](https://www.lcsc.com/product-detail/C84817.html)                  |
+| USB6B1                   | U2          |     1      | 1   | 0.47      | LCSC       |                 [C283483](https://www.lcsc.com/product-detail/C283483.html)                 |
+| MDBT50Q-1MV2 (MCU)       | U3          |     1      | 1   | 10.10     | SEED       | [Seed Studio](https://www.seeedstudio.com/MDBT50Q-1M-nRF52840-Based-BLE-Module-p-3147.html) |
+| MCP73831T-2ACI/OT        | U4          |     1      | 1   | 0.74      | LCSC       |                 [C424093](https://www.lcsc.com/product-detail/C424093.html)                 |
+| XIAO-nRF52840-SMD (MCU)  | U5          |     1      | 1   | 9.90      | 3.75       |       [Seed Studio](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html)        |
+| MCP23017                 | U6          |     1      | 1   | 2.03      | LCSC       |                 [C639770](https://www.lcsc.com/product-detail/C639770.html)                 |
+| 74LV1T08GV               | U7,U8       |     2      | 1   | 2.12      | LCSC       |                 [C547934](https://www.lcsc.com/product-detail/C547934.html)                 |
+| Keys ----- (Sockets)     | SW1-SW99    |     99     | 110 | 8.18      | Aliexpress |             [Aliexpress](https://www.aliexpress.us/item/3256809001207500.html)              |
+| ---------- (Switches)    | -           |     99     | 105 | 21.85 (T) | Aliexpress |             [Aliexpress](https://www.aliexpress.us/item/3256807647145642.html)              |
+| ---------- (Key Caps)    | -           |     99     | -   | 7.48 (T)  | Aliexpress |             [Aliexpress](https://www.aliexpress.us/item/3256808975886837.html)              |
+| ---------- (Stabilizers) | -           |     5      | -   | 5.78 (T)  | Aliexpress |             [Aliexpress](https://www.aliexpress.us/item/3256801499984864.html)              |
+| lithium batteries        | -           |     2      | -   | 18.16 (T) | Aliexpress |             [Aliexpress](https://www.aliexpress.us/item/3256811743915654.html)              |
 
 > *T for total price
+
+| Supplier   | cost  | Shipping | Total cost |
+| ---------- | ----- | -------- | ---------- |
+| LCSC       | 24.65 | 13.08    | 37.73      |
+| Aliexpress | 93.30 | 2.69     | 96.44      |
+| SEED       | 20    | 8.55     | 28.55      |
+| JLCPCB     | 29.90 | 20.14    | 50.04      |
+| Total      | -     | -        | 212.76     |
 
 <h2>Keyboard Case</h2>
 
