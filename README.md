@@ -38,6 +38,8 @@ I also wanted a cool looking keyboard so I added features I liked into this one 
 <img width="100%" alt="3D view front" src="https://github.com/user-attachments/assets/c0105391-5848-4349-84f0-9c8bddb8ab07"/>
 <img width="100%" alt="3D view back" src="https://github.com/user-attachments/assets/c5e5cc9f-e2c7-4141-980e-54427c0cc2eb"/>
 <h4 align="center">PCB 3D model with components</h4>
+<img width="100%" alt="How to connect the batteries" src="https://github.com/user-attachments/assets/4da7a191-fb85-4568-a532-648ce8f19c6b" />
+<h4 align="center">Wiring Diagram</h4>
 
 <h2>Firmware</h2>
 
