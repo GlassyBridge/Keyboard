@@ -1,8 +1,9 @@
-<h1 align="center"> Wireless-Modular Keyboard </h1>
+<h1 align="center"> MK-1000 </h1>
+<h4 align="center">A Modular-Wireless Keyboard </h4>
 <div align="center">
   <img width="80%" alt="image" src="https://github.com/user-attachments/assets/d57b7f7e-3add-4d3c-9f40-f51e95c1a49f" />
 </div>
-<p align="center">A custom modular keyboard that has both wireless and wired capabilities, uses MX hotswap switches (with per key RGB lighting) and a magnetic pogo pin connection which follows the I2C protocol.</p>
+<p align="center">A fully custom modular keyboard that has both wireless and wired capabilities, uses MX hotswap switches (with per key RGB lighting) and magnetic pogo pin connectors with I2C protocol.</p>
 <h2></h2>
 <h2> Features </h2>
 
