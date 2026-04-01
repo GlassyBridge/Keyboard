@@ -14,6 +14,12 @@
 - Includes a dedicated SWD interface for debugging and development
 - A dedicated slide switch to manage battery life
 
+<h2> Why this project? </h2>
+
+This project was made as an attempt to tackle more complex hardware from my previous projects. I spent a lot of time designing and reiterating it and its purpose is simple. I made it to function as a plug and play device that has modular capabilities.
+
+I also wanted a cool looking keyboard so I added features I liked into this one big project.
+
 <h2>Design</h2>
 <h3>Schematic</h3>
 <img width="49%" alt="Main_Board_Schematic" src="https://github.com/user-attachments/assets/85a9a515-3020-464d-8725-8060c9dc251d" />
